@@ -1,13 +1,24 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/schedule.js"],{
 
-/***/ "./api/news.json":
-/*!***********************!*\
-  !*** ./api/news.json ***!
-  \***********************/
+/***/ "./api/schedule.json":
+/*!***************************!*\
+  !*** ./api/schedule.json ***!
+  \***************************/
 /*! exports provided: 0, 1, 2, 3, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":4,\"photo\":\"\",\"title\":\"Старт першої альфи та план розвитку сайту\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio. orem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio. orem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-08-01T11:43:45\",\"category\":\"в а ж л и в о\"},{\"id\":3,\"photo\":\"./static/img/post.jpg\",\"title\":\"Новина 2\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-07-15T14:15:57\",\"category\":\"н о в и н а\"},{\"id\":2,\"photo\":\"./static/img/post.jpg\",\"title\":\"Новина 3\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-07-14T20:43:45\",\"category\":\"н о в и н а\"},{\"id\":1,\"photo\":\"./static/img/post.jpg\",\"title\":\"Новина 4\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-07-12T20:43:45\",\"category\":\"н о в и н а\"}]");
+module.exports = JSON.parse("[[{\"specialty\":\"PI\",\"course\":1,\"group\":\"ПІ-20-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Математика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 304\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Біологія\",\"lecturer\":\"Білокур А.С.\",\"audience\":\"ауд. 306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"PI\",\"course\":1,\"group\":\"ПІ-20-01\",\"day\":\"вівторок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Хімія\",\"lecturer\":\"Скочинська Р.Р.\",\"audience\":\"ауд. 303\"},{\"start\":\"9:30\",\"subject\":\"Захист Вітчизни\",\"lecturer\":\"Горошко В.М.\",\"audience\":\"ауд. 308\"},{\"start\":\"11:10\",\"subject\":\"Історія України\",\"lecturer\":\"Боднарчук О.В.\",\"audience\":\"ауд. 312\"},{\"start\":\"12:40\",\"subject\":\"Фізика та астрономія\",\"lecturer\":\"Бірчак Т.В.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"PI\",\"course\":1,\"group\":\"ПІ-20-01\",\"day\":\"середа\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Хімія\",\"lecturer\":\"Скочинська Р.Р.\",\"audience\":\"ауд. 303\"},{\"start\":\"9:30\",\"subject\":\"Захист Вітчизни\",\"lecturer\":\"Горошко В.М.\",\"audience\":\"ауд. 308\"},{\"start\":\"11:10\",\"subject\":\"Історія України\",\"lecturer\":\"Боднарчук О.В.\",\"audience\":\"ауд. 312\"},{\"start\":\"12:40\",\"subject\":\"Фізика та астрономія\",\"lecturer\":\"Бірчак Т.В.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"PI\",\"course\":1,\"group\":\"ПІ-20-01\",\"day\":\"четвер\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Хімія\",\"lecturer\":\"Скочинська Р.Р.\",\"audience\":\"ауд. 303\"},{\"start\":\"9:30\",\"subject\":\"Захист Вітчизни\",\"lecturer\":\"Горошко В.М.\",\"audience\":\"ауд. 308\"},{\"start\":\"11:10\",\"subject\":\"Історія України\",\"lecturer\":\"Боднарчук О.В.\",\"audience\":\"ауд. 312\"},{\"start\":\"12:40\",\"subject\":\"Фізика та астрономія\",\"lecturer\":\"Бірчак Т.В.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"PI\",\"course\":1,\"group\":\"ПІ-20-01\",\"day\":\"п'ятниця\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Хімія\",\"lecturer\":\"Скочинська Р.Р.\",\"audience\":\"ауд. 303\"},{\"start\":\"9:30\",\"subject\":\"Захист Вітчизни\",\"lecturer\":\"Горошко В.М.\",\"audience\":\"ауд. 308\"},{\"start\":\"11:10\",\"subject\":\"Історія України\",\"lecturer\":\"Боднарчук О.В.\",\"audience\":\"ауд. 312\"},{\"start\":\"12:40\",\"subject\":\"Фізика та астрономія\",\"lecturer\":\"Бірчак Т.В.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"AK\",\"course\":1,\"group\":\"АК-20-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Математика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 304\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Біологія\",\"lecturer\":\"Білокур А.С.\",\"audience\":\"ауд. 306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"AK\",\"course\":1,\"group\":\"АК-20-01\",\"day\":\"вівторок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Математика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 304\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Біологія\",\"lecturer\":\"Білокур А.С.\",\"audience\":\"ауд. 306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"AK\",\"course\":1,\"group\":\"АК-20-01\",\"day\":\"середа\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Математика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 304\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Біологія\",\"lecturer\":\"Білокур А.С.\",\"audience\":\"ауд. 306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"AK\",\"course\":1,\"group\":\"АК-20-01\",\"day\":\"четвер\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Математика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 304\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Біологія\",\"lecturer\":\"Білокур А.С.\",\"audience\":\"ауд. 306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"AK\",\"course\":1,\"group\":\"АК-20-01\",\"day\":\"п'ятниця\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Математика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 304\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Біологія\",\"lecturer\":\"Білокур А.С.\",\"audience\":\"ауд. 306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"KI\",\"course\":1,\"group\":\"КІ-20-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Біологія та екологія\",\"lecturer\":\"Прокіпчин Л.В.\",\"audience\":\"ауд. 303\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Стражник О.Я., Долганова Н.М.\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Фізичне виховання\",\"lecturer\":\"Сливінський Ю.Д.\",\"audience\":\"ауд. 306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"KI\",\"course\":1,\"group\":\"КІ-20-01\",\"day\":\"вівторок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Зарубіжна література\",\"lecturer\":\"Кельбас Г.Б.\",\"audience\":\"ауд. 210\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Біологія\",\"lecturer\":\"Білокур А.С.\",\"audience\":\"ауд. 306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А.\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"L\",\"course\":1,\"group\":\"ЕЛ-20-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Всесвітня історія\",\"lecturer\":\"Луцан О.М.\",\"audience\":\"ауд.304\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М.\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Географія\",\"lecturer\":\"Гуринович Л.Д.\",\"audience\":\"ауд. 307\"},{\"start\":\"12:40\",\"subject\":\"Хімія\",\"lecturer\":\"Кучірка М.М.\",\"audience\":\"ауд. 301\"}]}],[{\"specialty\":\"PI\",\"course\":2,\"group\":\"ПІ-19-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Основи програмування\",\"lecturer\":\"Балабаник О.К\",\"audience\":\"ауд. 101\"},{\"start\":\"9:30\",\"subject\":\"База даних\",\"lecturer\":\"Шевчук О.В\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Іноземна мова\",\"lecturer\":\"Люшняк О.М., Павелюк Л.Л.\",\"audience\":\"ауд. 315, 317\"},{\"start\":\"12:40\",\"subject\":\"Українська мова\",\"lecturer\":\"Попович Л.С.\",\"audience\":\"ауд. 211\"}]},{\"specialty\":\"PI\",\"course\":2,\"group\":\"ПІ-19-02\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"База даних\",\"lecturer\":\"Шевчук О.В., Володка Ю.І.\",\"audience\":\"ауд. 101\"},{\"start\":\"9:30\",\"subject\":\"Вища математика\",\"lecturer\":\"Федейко І.М.\",\"audience\":\"ауд. 205\"},{\"start\":\"11:10\",\"subject\":\"Громадянська освіта\",\"lecturer\":\"Черковська Ю.Є.\",\"audience\":\"ауд. 305\"},{\"start\":\"12:40\",\"subject\":\"Алгоритми та структури даних\",\"lecturer\":\"Копей І.Б.\",\"audience\":\"ауд. 203\"}]},{\"specialty\":\"AK\",\"course\":2,\"group\":\"АК-19-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"9:30\",\"subject\":\"Іноземна мова\",\"lecturer\":\"Люшняк О.М., Павелюк Л.Л.\",\"audience\":\"ауд. 314, 315\"},{\"start\":\"11:10\",\"subject\":\"Електроніка та електромеханіка\",\"lecturer\":\"Ткачук Ю.З. (1,3)\",\"audience\":\"ауд. 023\"},{\"start\":\"11:10\",\"subject\":\"Фізика (спецрозділи)\",\"lecturer\":\"Аронець О.В., Бірчак Т.В. (2,4)\",\"audience\":\"ауд. 102\"},{\"start\":\"12:40\",\"subject\":\"Фізика і астрономія\",\"lecturer\":\"Аронець О.В. (1,3)\",\"audience\":\"ауд. 102\"},{\"start\":\"12:40\",\"subject\":\"Електроніка та електромеханіка\",\"lecturer\":\"Ткачук Ю.З., Тучак Н.Ю. (2,4)\",\"audience\":\"ауд. 023\"},{\"start\":\"14:10\",\"subject\":\"Фізичне виховання\",\"lecturer\":\"Юрчук О.В.\",\"audience\":\"\"}]},{\"specialty\":\"AK\",\"course\":2,\"group\":\"АК-19-01\",\"day\":\"вівторок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Математика\",\"lecturer\":\"Долганова Н.М\",\"audience\":\"ауд. 304\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Біологія\",\"lecturer\":\"Білокур А.С\",\"audience\":\"ауд. 306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А\",\"audience\":\"ауд. 212\"}]},{\"specialty\":\"KI\",\"course\":2,\"group\":\"КІ-19-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Алгоритми та методи обчислення\",\"lecturer\":\"Миронишин Л.В. (2,4)\",\"audience\":\"ауд. 203\"},{\"start\":\"9:30\",\"subject\":\"Фізика\",\"lecturer\":\"Гусак М.П. Бірчак Т.В.\",\"audience\":\"ауд. 304\"},{\"start\":\"11:10\",\"subject\":\"Фізична культура\",\"lecturer\":\"Бевзюк Д.М.\",\"audience\":\"\"},{\"start\":\"12:40\",\"subject\":\"Технології (Основи комп'ютерної інженерії та сучасні web технології)\",\"lecturer\":\"Голимбйовська Н.Б., Володка Ю.І.\",\"audience\":\"ауд. 320\"},{\"start\":\"14:10\",\"subject\":\"Теорія електричних та магнітних кіл\",\"lecturer\":\"Ткачук Ю.З. (3т)\",\"audience\":\"ауд. 023\"}]},{\"specialty\":\"KI\",\"course\":2,\"group\":\"КІ-19-01\",\"day\":\"вівторок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Іноземна мова\",\"lecturer\":\"Павелюк Л.Л., Уляшкевич М.З\",\"audience\":\"ауд. 317, 105\"},{\"start\":\"9:30\",\"subject\":\"Вища математика\",\"lecturer\":\"Воронцова О.Б.\",\"audience\":\"ауд. 201\"},{\"start\":\"11:10\",\"subject\":\"Теорія електричних та магнітних кіл\",\"lecturer\":\"Ткачук Ю.З., Тучак Н.Ю.\",\"audience\":\"ауд. 023\"},{\"start\":\"12:40\",\"subject\":\"Історія України\",\"lecturer\":\"Боднарчук О.В.\",\"audience\":\"ауд. 305 (1,3), 09 (2,4)\"}]},{\"specialty\":\"L\",\"course\":2,\"group\":\"ЕЛ-19-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Математика\",\"lecturer\":\"Долганова Н.М\",\"audience\":\"304\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М\",\"audience\":\"ауд. 101\"},{\"start\":\"11:10\",\"subject\":\"Біологія\",\"lecturer\":\"Білокур А.С\",\"audience\":\"ауд. 306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А\",\"audience\":\"ауд. 212\"}]}],[{\"specialty\":\"PI\",\"course\":3,\"group\":\"ПІ-18-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Архітектура комп'ютера\",\"lecturer\":\"Грамалюк В.С. (1,2,3)\",\"audience\":\"ауд. кц 2\"},{\"start\":\"9:30\",\"subject\":\"Архітектура та проектування програмного забезпечення\",\"lecturer\":\"Кучеренко О.І., Копей І.Б.\",\"audience\":\"ауд. 312\"},{\"start\":\"11:10\",\"subject\":\"Основи програмування мовою JAVA\",\"lecturer\":\"Шевчук О.В.\",\"audience\":\"ауд. 312\"},{\"start\":\"12:40\",\"subject\":\"Об'єктно-орієнтоване програмне забезпечення\",\"lecturer\":\"Розметанюк О.Т.\",\"audience\":\"ауд. кц 4\"}]},{\"specialty\":\"PI\",\"course\":3,\"group\":\"ПІ-18-01\",\"day\":\"вівторок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Архітектура та проектування програмного забезпечення\",\"lecturer\":\"Кучеренко О.І., Копей І.Б. (3)\",\"audience\":\"ауд. кц 2\"},{\"start\":\"8:00\",\"subject\":\"Операційні системи\",\"lecturer\":\"Соловчук Г.В. (2,4)\",\"audience\":\"ауд. кц 2\"},{\"start\":\"9:30\",\"subject\":\"Іноземна мова (за професійним спрамуванням)\",\"lecturer\":\"Підгірна Т.Г., Клейнота О.С.\",\"audience\":\"ауд. 309, 314\"},{\"start\":\"11:10\",\"subject\":\"Архітектура комп'ютера\",\"lecturer\":\"Грамалюк В.С., Бідасюк М.А\",\"audience\":\"212\"},{\"start\":\"12:40\",\"subject\":\"Операційні системи\",\"lecturer\":\"Соловчук Г.В. (1,3)\",\"audience\":\"ауд. кц 2\"}]},{\"specialty\":\"AK\",\"course\":3,\"group\":\"АК-18-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"9:30\",\"subject\":\"Основи дискретної математики\",\"lecturer\":\"Пиц С.А. (2,4)\",\"audience\":\"ауд. 207\"},{\"start\":\"9:30\",\"subject\":\"Іноземна мова\",\"lecturer\":\"Павелюк Л.Л., Підгорна Г.Г.\",\"audience\":\"ауд. 309, 314\"},{\"start\":\"11:10\",\"subject\":\"Метрологія\",\"lecturer\":\"Лютенко Т.В.\",\"audience\":\"кц 10\"},{\"start\":\"12:40\",\"subject\":\"Основи дискретної математики\",\"lecturer\":\"Пиц С.А.\",\"audience\":\"ауд. 201\"}]},{\"specialty\":\"AK\",\"course\":3,\"group\":\"АК-18-01\",\"day\":\"вівторок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Основи дискретної математики\",\"lecturer\":\"Пиц С.А.\",\"audience\":\"ауд. 201 (1,3) ауд. 205 (2,4)\"},{\"start\":\"9:30\",\"subject\":\"Метрологія\",\"lecturer\":\"Лютенко Т.В., Малісевич Н.М.\",\"audience\":\"кц 10\"},{\"start\":\"11:10\",\"subject\":\"СУБД\",\"lecturer\":\"Володка Ю.І., Копей І.Б.\",\"audience\":\"ауд 101\"},{\"start\":\"12:40\",\"subject\":\"Фізичне виховання\",\"lecturer\":\"Юрчук О.В.\",\"audience\":\"\"}]},{\"specialty\":\"KI\",\"course\":3,\"group\":\"КІ-18-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Комп'ютерна логіка\",\"lecturer\":\"Голембйовська Н.Б.\",\"audience\":\"ауд. 320\"},{\"start\":\"9:30\",\"subject\":\"Комп'ютерна самотехніка\",\"lecturer\":\"Максимців Б.Я., Береговська О.Д.\",\"audience\":\"ауд. 026\"},{\"start\":\"11:10\",\"subject\":\"Організація баз даних\",\"lecturer\":\"Копей І.Б., Володка Ю.І.\",\"audience\":\"ауд. 320 (1,3), кц 7 (2,4)\"},{\"start\":\"12:40\",\"subject\":\"Комп'ютерна самотехніка\",\"lecturer\":\"Максимців Б.Я.\",\"audience\":\"ауд. 026\"}]},{\"specialty\":\"KI\",\"course\":3,\"group\":\"КІ-18-01\",\"day\":\"вівторок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Комп'ютерна логіка\",\"lecturer\":\"Голембйовська Н.Б.\",\"audience\":\"ауд. 320\"},{\"start\":\"9:30\",\"subject\":\"Фізичне виховання\",\"lecturer\":\"Юрчук Н.М (1,3)\",\"audience\":\"\"},{\"start\":\"9:30\",\"subject\":\"Периферійні пристрої\",\"lecturer\":\"Йосифів В.Д. (2,4)\",\"audience\":\"ауд. 312\"},{\"start\":\"11:10\",\"subject\":\"Іноземна мова\",\"lecturer\":\"Шмідт Л.М, Клейнота О.С., Шкутова І.І.\",\"audience\":\"ауд. 024, 314, 317\"},{\"start\":\"12:40\",\"subject\":\"Периферійні пристрої\",\"lecturer\":\"Йосифів В.Д. (1,3)\",\"audience\":\"ауд. 312\"}]},{\"specialty\":\"L\",\"course\":3,\"group\":\"ЕЛ-18-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Математика\",\"lecturer\":\"Долганова Н.М\",\"audience\":\"304\"},{\"start\":\"9:30\",\"subject\":\"Інформатика\",\"lecturer\":\"Долганова Н.М\",\"audience\":\"101\"},{\"start\":\"11:10\",\"subject\":\"Біологія\",\"lecturer\":\"Білокур А.С\",\"audience\":\"306\"},{\"start\":\"12:40\",\"subject\":\"Фізика\",\"lecturer\":\"Бідасюк С.А\",\"audience\":\"212\"}]}],[{\"specialty\":\"PI\",\"course\":4,\"group\":\"ПІ-17-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"12:40\",\"subject\":\"Безпека програм та даних\",\"lecturer\":\"Левицький І.В., Семеген Ю.В.\",\"audience\":\"ауд. 312\"},{\"start\":\"14:10\",\"subject\":\"Комп'ютерна графіка\",\"lecturer\":\"Шнайдер М.В.\",\"audience\":\"ауд. кц 3\"},{\"start\":\"15:40\",\"subject\":\"Технології компонетного програмування\",\"lecturer\":\"Розметанюк О.Т., Семеген Ю.В.\",\"audience\":\"ауд. кц 2\"}]},{\"specialty\":\"PI\",\"course\":4,\"group\":\"ПІ-17-02\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"14:10\",\"subject\":\"Технології компонетного програмування\",\"lecturer\":\"Розметанюк О.Т., Семеген Ю.В.\",\"audience\":\"ауд. кц 2\"},{\"start\":\"15:40\",\"subject\":\"Основи охорони праці\",\"lecturer\":\"Маланчук І.Д.\",\"audience\":\"ауд. 205\"}]},{\"specialty\":\"AK\",\"course\":4,\"group\":\"АК-17-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"11:10\",\"subject\":\"Основи програмування мовою JAVA\",\"lecturer\":\"Кучеренко О.І., Голимбйовська Н.Б. (1,3)\",\"audience\":\"кц 4\"},{\"start\":\"12:40\",\"subject\":\"Основи компютерних-інтегрованих управлінь\",\"lecturer\":\"Малісевич В.В.\",\"audience\":\"кц 11\"},{\"start\":\"14:10\",\"subject\":\"Мікроконтролери та програмно-логічні контролери\",\"lecturer\":\"Бідасюк М.А. (1,3)\",\"audience\":\"кц 119\"},{\"start\":\"14:10\",\"subject\":\"Технічні засоби автоматизації\",\"lecturer\":\"Грималюк О.В. (2,4)\",\"audience\":\"ауд. 304\"}]},{\"specialty\":\"AK\",\"course\":4,\"group\":\"АК-17-01\",\"day\":\"вівторок\",\"lessons\":[{\"start\":\"11:10\",\"subject\":\"Основи ВЕБ технології\",\"lecturer\":\"Стражник О.Я., Шнайдер М.В.\",\"audience\":\"кц 7\"},{\"start\":\"12:40\",\"subject\":\"Комп'ютерні мережі та адміністрування локальних мереж\",\"lecturer\":\"Стосяк Б.І.\",\"audience\":\"кц 119\"},{\"start\":\"14:10\",\"subject\":\"Основи програмування мовою JAVA\",\"lecturer\":\"Кучеренко О.І., Голимбйовська Н.Б.\",\"audience\":\"кц 4\"}]},{\"specialty\":\"KI\",\"course\":4,\"group\":\"КІ-17-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"12:40\",\"subject\":\"Основи економіки і організації виробництва\",\"lecturer\":\"Непотюк О.В.\",\"audience\":\"ауд. 117\"},{\"start\":\"14:10\",\"subject\":\"Комп'ютерні мережі\",\"lecturer\":\"Голембйовська Н.Б., Грималюк В.С.\",\"audience\":\"ауд. 320\"},{\"start\":\"15:40\",\"subject\":\"Комп'ютерні системи\",\"lecturer\":\"Голембйовська Н.Б.\",\"audience\":\"ауд. 320\"}]},{\"specialty\":\"KI\",\"course\":4,\"group\":\"КІ-17-01\",\"day\":\"вівторок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Основи крос-платформенного програмування\",\"lecturer\":\"Йосифів В.Д.\",\"audience\":\"ауд. 312\"},{\"start\":\"12:40\",\"subject\":\"Комп'ютерне моделювання\",\"lecturer\":\"Голембйовська Н.Б.\",\"audience\":\"ауд. 320\"},{\"start\":\"15:40\",\"subject\":\"Основи економіки і організації виробництва\",\"lecturer\":\"Непотюк О.В. (1,3)\",\"audience\":\"ауд. 117\"},{\"start\":\"12:40\",\"subject\":\"Комп'ютерні мережі\",\"lecturer\":\"Голембйовська Н.Б. (1,3)\",\"audience\":\"ауд. 320\"}]},{\"specialty\":\"L\",\"course\":4,\"group\":\"ЕЛ-17-01\",\"day\":\"понеділок\",\"lessons\":[{\"start\":\"8:00\",\"subject\":\"Радіоприймальні пристрої\",\"lecturer\":\"Дворський В.М.\",\"audience\":\"ауд. 09\"},{\"start\":\"9:30\",\"subject\":\"Теорія електричного зв'язку\",\"lecturer\":\"Франчук М.В.\",\"audience\":\"ауд. 07\"},{\"start\":\"11:10\",\"subject\":\"Експлуатація проф. тех. обл.\",\"lecturer\":\"Береговський В.В., Береговська О.Д.\",\"audience\":\"кц 07\"}]}]]");
+
+/***/ }),
+
+/***/ "./api/scheduleL.json":
+/*!****************************!*\
+  !*** ./api/scheduleL.json ***!
+  \****************************/
+/*! exports provided: 0, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[[{\"department\":\"Природничі дисципліни\",\"day\":\"понеділок\",\"lecturer\":\"Танасійчук Олена Іллівна\",\"lessons\":[{\"start\":\"2\",\"subject\":\"Біологія\",\"group\":\"ТК-17-02\",\"audience\":\"ауд. 304\"},{\"start\":\"3\",\"subject\":\"Біологія\",\"group\":\"МТ/ПМ-19-01\",\"audience\":\"ауд. 101\"},{\"start\":\"4\",\"subject\":\"Біологія\",\"group\":\"ЕЛ-19-02\",\"audience\":\"ауд. 306\"}]},{\"department\":\"Природничі дисципліни\",\"day\":\"понеділок\",\"lecturer\":\"Скочинська Роксана Романівна\",\"lessons\":[{\"start\":\"2\",\"subject\":\"Хімія\",\"group\":\"ТК-17-02\",\"audience\":\"ауд. 304\"},{\"start\":\"3\",\"subject\":\"Хімія\",\"group\":\"МТ/ПМ-19-01\",\"audience\":\"ауд. 101\"},{\"start\":\"4\",\"subject\":\"Хімія\",\"group\":\"ЕЛ-19-02\",\"audience\":\"ауд. 306\"}]},{\"department\":\"Природничі дисципліни\",\"day\":\"понеділок\",\"lecturer\":\"Прокіпчин Олександра Ярославівна\",\"lessons\":[{\"start\":\"2\",\"subject\":\"Біологія\",\"group\":\"АК-19-03\",\"audience\":\"ауд. 304\"},{\"start\":\"3\",\"group\":\"АК-19-02\",\"subject\":\"Біологія\",\"audience\":\"ауд. 101\"},{\"start\":\"4\",\"group\":\"АК-19-01\",\"subject\":\"Біологія\",\"audience\":\"ауд. 306\"}]},{\"department\":\"Природничі дисципліни\",\"day\":\"вівторок\",\"lecturer\":\"Танасійчук Олена Іллівна\",\"lessons\":[{\"start\":\"2\",\"subject\":\"Біологія\",\"group\":\"АК-19-01\",\"audience\":\"ауд. 304\"},{\"start\":\"3\",\"subject\":\"Біологія\",\"group\":\"АК-19-02\",\"audience\":\"ауд. 101\"},{\"start\":\"4\",\"subject\":\"Біологія\",\"group\":\"АК-19-03\",\"audience\":\"ауд. 306\"}]},{\"department\":\"Природничі дисципліни\",\"day\":\"вівторок\",\"lecturer\":\"Гуринович Ліна Дмитрівна\",\"lessons\":[{\"start\":\"1\",\"subject\":\"Географія\",\"group\":\"АК-19-01\",\"audience\":\"ауд. 304\"},{\"start\":\"2\",\"subject\":\"Географія\",\"group\":\"АК-19-02\",\"audience\":\"ауд. 101\"},{\"start\":\"3\",\"subject\":\"Географія\",\"group\":\"АК-19-03\",\"audience\":\"ауд. 306\"},{\"start\":\"4\",\"subject\":\"Географія\",\"group\":\"ПІ-19-01\",\"audience\":\"ауд. 306\"}]},{\"department\":\"Природничі дисципліни\",\"day\":\"вівторок\",\"lecturer\":\"Скочинська Роксана Романівна\",\"lessons\":[{\"start\":\"2\",\"group\":\"ТК-17-02\",\"audience\":\"ауд. 304\"},{\"start\":\"3\",\"group\":\"МТ/ПМ-19-01\",\"audience\":\"ауд. 101\"},{\"start\":\"4\",\"group\":\"ЕЛ-19-02\",\"audience\":\"ауд. 306\"}]},{\"department\":\"Природничі дисципліни\",\"day\":\"вівторок\",\"lecturer\":\"Прокіпчин Олександра Ярославівна\",\"lessons\":[{\"start\":\"2\",\"group\":\"ТК-17-02\",\"audience\":\"ауд. 304\"},{\"start\":\"3\",\"group\":\"МТ/ПМ-19-01\",\"audience\":\"ауд. 101\"},{\"start\":\"4\",\"group\":\"ЕЛ-19-02\",\"audience\":\"ауд. 306\"}]}]]");
 
 /***/ }),
 
@@ -943,115 +954,88 @@ var Nav = function Nav() {
 
 /***/ }),
 
-/***/ "./components/News/index.jsx":
+/***/ "./components/Tabs/index.jsx":
 /*!***********************************!*\
-  !*** ./components/News/index.jsx ***!
+  !*** ./components/Tabs/index.jsx ***!
   \***********************************/
-/*! exports provided: default */
+/*! exports provided: Tabs, Panel */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tabs", function() { return Tabs; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Panel", function() { return Panel; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _news_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./news.scss */ "./components/News/news.scss");
-/* harmony import */ var _news_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_news_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _tabs_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tabs.scss */ "./components/Tabs/tabs.scss");
+/* harmony import */ var _tabs_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tabs_scss__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/News/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/Tabs/index.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-var News = function News(props) {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])("notActive"),
-      postState = _useState[0],
-      changeState = _useState[1];
+var Tabs = function Tabs(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(props.selected || 0),
+      selected = _useState[0],
+      changeTab = _useState[1];
 
   return __jsx("div", {
-    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.post,
-    onClick: function onClick() {
-      return changeState(postState === "notActive" ? "active" : "notActive");
-    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 5
+    }
+  }, __jsx("ul", {
+    className: _tabs_scss__WEBPACK_IMPORTED_MODULE_1___default.a.inline,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
-      columnNumber: 5
-    }
-  }, props.post.photo ? __jsx("div", {
-    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.img,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 9
-    }
-  }, __jsx("img", {
-    src: props.post.photo,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 11
-    }
-  })) : __jsx("div", {
-    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.stub,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }), __jsx("div", {
-    className: "".concat(_news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.txtContainer, " ").concat(postState === "active" ? _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.txtContainerActive : undefined),
-    category: props.post.category,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
       columnNumber: 7
     }
-  }, __jsx("h2", {
-    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.title,
+  }, props.children.map(function (tab, index) {
+    var style = index == selected ? _tabs_scss__WEBPACK_IMPORTED_MODULE_1___default.a.selected : undefined;
+    return __jsx("li", {
+      className: "".concat(_tabs_scss__WEBPACK_IMPORTED_MODULE_1___default.a.li, " ").concat(style),
+      key: index,
+      onClick: function onClick() {
+        return changeTab(index);
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 13
+      }
+    }, tab.props.title);
+  })), __jsx("div", {
+    className: "tab",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 9
+      lineNumber: 23,
+      columnNumber: 7
     }
-  }, props.post.title), __jsx("p", {
-    className: "".concat(_news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.text, " ").concat(postState === "active" ? _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.textActive : undefined),
+  }, props.children[selected]));
+};
+
+var Panel = function Panel(props) {
+  return __jsx("div", {
+    className: _tabs_scss__WEBPACK_IMPORTED_MODULE_1___default.a.panel,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29,
-      columnNumber: 9
+      columnNumber: 10
     }
-  }, props.post.text), __jsx("span", {
-    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.date,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 9
-    }
-  }, moment__WEBPACK_IMPORTED_MODULE_1___default()(props.post.date).locale("uk").fromNow()), __jsx("span", {
-    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.category,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 9
-    }
-  }, props.post.category)));
+  }, props.children);
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (News);
+
 
 /***/ }),
 
@@ -19214,21 +19198,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Findex%2Findex.jsx!./":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Findex%2Findex.jsx ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fschedule&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fschedule%2Findex.jsx!./":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fschedule&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fschedule%2Findex.jsx ***!
+  \************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var mod = __webpack_require__(/*! ./pages/index/index.jsx */ "./pages/index/index.jsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/schedule", function() {
+      var mod = __webpack_require__(/*! ./pages/schedule/index.jsx */ "./pages/schedule/index.jsx")
       if(true) {
-        module.hot.accept(/*! ./pages/index/index.jsx */ "./pages/index/index.jsx", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index/index.jsx */ "./pages/index/index.jsx")
-          next.router.update("/", updatedPage)
+        module.hot.accept(/*! ./pages/schedule/index.jsx */ "./pages/schedule/index.jsx", function() {
+          if(!next.router.components["/schedule"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/schedule/index.jsx */ "./pages/schedule/index.jsx")
+          next.router.update("/schedule", updatedPage)
         })
       }
       return mod
@@ -22972,10 +22956,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index/index.jsx":
-/*!*******************************!*\
-  !*** ./pages/index/index.jsx ***!
-  \*******************************/
+/***/ "./pages/schedule/components/Lecturer/index.jsx":
+/*!******************************************************!*\
+  !*** ./pages/schedule/components/Lecturer/index.jsx ***!
+  \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22983,14 +22967,892 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout/index.jsx");
-/* harmony import */ var _components_News__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/News */ "./components/News/index.jsx");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.scss */ "./pages/index/index.scss");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _api_news_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../api/news.json */ "./api/news.json");
-var _api_news_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../api/news.json */ "./api/news.json", 1);
+/* harmony import */ var _lecturer_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lecturer.scss */ "./pages/schedule/components/Lecturer/lecturer.scss");
+/* harmony import */ var _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_lecturer_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _api_scheduleL_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../api/scheduleL.json */ "./api/scheduleL.json");
+var _api_scheduleL_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../../api/scheduleL.json */ "./api/scheduleL.json", 1);
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/pages/index/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/pages/schedule/components/Lecturer/index.jsx";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var Lecturer = function Lecturer() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
+      department = _useState[0],
+      setDepartment = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
+      day = _useState2[0],
+      setDay = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
+      search = _useState3[0],
+      updateSearch = _useState3[1];
+
+  var scheduleDay = [];
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    filteredSchedule;
+  }); // Фільтр даних по цикловій комісії, дню та пошуку
+
+  var filteredSchedule = _api_scheduleL_json__WEBPACK_IMPORTED_MODULE_2__.map(function (arr) {
+    return arr.filter(function (schoolDay) {
+      console.log();
+      var byDepartment = schoolDay.department.indexOf(department) !== -1;
+      var byDay = schoolDay.day.indexOf(day) !== -1;
+      var bySearch = schoolDay.lecturer.indexOf(search.toUpperCase()) !== -1;
+
+      if (search === "") {
+        return byDepartment && byDay;
+      } else {
+        return byDay && bySearch;
+      }
+    });
+  }); // Всі вхідні дані заносяться у масив. За допомогою масиву і слайсу реалізовується пагінація
+
+  filteredSchedule.map(function (department) {
+    return department.map(function (group) {
+      return scheduleDay.push(group);
+    });
+  });
+  return __jsx("div", {
+    className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.lecturer,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.filter,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 7
+    }
+  }, __jsx("select", {
+    className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.department,
+    name: "departament",
+    value: department,
+    onChange: function onChange() {
+      return setDepartment(event.target.value);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 9
+    }
+  }, __jsx("option", {
+    value: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 11
+    }
+  }, "\u041E\u0431\u0435\u0440\u0456\u0442\u044C \u0446\u0438\u043A\u043B\u043E\u0432\u0443 \u043A\u043E\u043C\u0456\u0441\u0456\u044E"), __jsx("option", {
+    value: "\u041F\u0440\u0438\u0440\u043E\u0434\u043D\u0438\u0447\u0456 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0438",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 11
+    }
+  }, "\u041F\u0440\u0438\u0440\u043E\u0434\u043D\u0438\u0447\u0456 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0438"), __jsx("option", {
+    value: "\u0424\u0456\u0437\u0438\u0447\u043D\u0456 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0438",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11
+    }
+  }, "\u0424\u0456\u0437\u0438\u0447\u043D\u0456 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0438"), __jsx("option", {
+    value: "\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u0442\u0430 \u0441\u0432\u0456\u0442\u043E\u0432\u0456 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u0438",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 11
+    }
+  }, "\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u0442\u0430 \u0441\u0432\u0456\u0442\u043E\u0432\u0456 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u0438"), __jsx("option", {
+    value: "\u0421\u043E\u0446\u0456\u0430\u043B\u044C\u043D\u043E-\u0433\u0443\u043C\u0430\u043D\u0456\u0442\u0430\u0440\u043D\u0456 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0438",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 11
+    }
+  }, "\u0421\u043E\u0446\u0456\u0430\u043B\u044C\u043D\u043E-\u0433\u0443\u043C\u0430\u043D\u0456\u0442\u0430\u0440\u043D\u0456 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0438"), __jsx("option", {
+    value: "\u0406\u043D\u043E\u0437\u0435\u043C\u043D\u0456 \u043C\u043E\u0432\u0438",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 11
+    }
+  }, "\u0406\u043D\u043E\u0437\u0435\u043C\u043D\u0456 \u043C\u043E\u0432\u0438"), __jsx("option", {
+    value: "\u0417\u0434\u043E\u0440\u043E\u0432'\u044F \u0442\u0430 \u0444\u0456\u0437\u0432\u0438\u0445\u043E\u0432\u0430\u043D\u043D\u044F",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 11
+    }
+  }, "\u0417\u0434\u043E\u0440\u043E\u0432'\u044F \u0442\u0430 \u0444\u0456\u0437\u0432\u0438\u0445\u043E\u0432\u0430\u043D\u043D\u044F"), __jsx("option", {
+    value: "\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u0447\u043D\u0456 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0438",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 11
+    }
+  }, "\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u0447\u043D\u0456 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0438"), __jsx("option", {
+    value: "\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u0430 \u0456\u043D\u0436\u0435\u043D\u0435\u0440\u0456\u044F",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 11
+    }
+  }, "\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u0430 \u0456\u043D\u0436\u0435\u043D\u0435\u0440\u0456\u044F"), __jsx("option", {
+    value: "\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0430 \u0456\u043D\u0436\u0435\u043D\u0435\u0440\u0456\u044F",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 11
+    }
+  }, "\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0430 \u0456\u043D\u0436\u0435\u043D\u0435\u0440\u0456\u044F"), __jsx("option", {
+    value: "\u0406\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0438 \u0442\u0430 \u043A\u043E\u043C\u043F\u044E\u0442\u0435\u0440\u043D\u043E\u0457 \u0456\u043D\u0436\u0435\u043D\u0435\u0440\u0456\u0457",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 11
+    }
+  }, "\u0406\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0438 \u0442\u0430 \u043A\u043E\u043C\u043F\u044E\u0442\u0435\u0440\u043D\u043E\u0457 \u0456\u043D\u0436\u0435\u043D\u0435\u0440\u0456\u0457"), __jsx("option", {
+    value: "\u041E\u0431\u0441\u043B\u0443\u0433\u043E\u0432\u0443\u0432\u0430\u043D\u043D\u044F \u0432\u0435\u0440\u0441\u0442\u0430\u0442\u0456\u0432 \u0437 \u041F\u0423 \u0456 \u0440\u043E\u0431\u043E\u0442\u043E\u0442\u0435\u0445\u043D\u0456\u0447\u043D\u0438\u0445 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0441\u0456\u0432",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 11
+    }
+  }, "\u041E\u0431\u0441\u043B\u0443\u0433\u043E\u0432\u0443\u0432\u0430\u043D\u043D\u044F \u0432\u0435\u0440\u0441\u0442\u0430\u0442\u0456\u0432 \u0437 \u041F\u0423 \u0456 \u0440\u043E\u0431\u043E\u0442\u043E\u0442\u0435\u0445\u043D\u0456\u0447\u043D\u0438\u0445 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0441\u0456\u0432"), __jsx("option", {
+    value: "\u0415\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u0456\u043A\u0430 \u0442\u0430 \u0442\u0435\u043B\u0435\u043A\u043E\u043C\u0443\u043D\u0456\u043A\u0430\u0446\u0456\u0457",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 11
+    }
+  }, "\u0415\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u0456\u043A\u0430 \u0442\u0430 \u0442\u0435\u043B\u0435\u043A\u043E\u043C\u0443\u043D\u0456\u043A\u0430\u0446\u0456\u0457"), __jsx("option", {
+    value: "\u0415\u043B\u0435\u043A\u0442\u0440\u043E\u0442\u0435\u043F\u043B\u043E\u0442\u0435\u0445\u043D\u0456\u0447\u043D\u0456 \u0432\u0438\u043C\u0456\u0440\u044E\u0432\u0430\u043D\u044F",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 11
+    }
+  }, "\u0415\u043B\u0435\u043A\u0442\u0440\u043E\u0442\u0435\u043F\u043B\u043E\u0442\u0435\u0445\u043D\u0456\u0447\u043D\u0456 \u0432\u0438\u043C\u0456\u0440\u044E\u0432\u0430\u043D\u044F"), __jsx("option", {
+    value: "\u0415\u043A\u043E\u043D\u043E\u043C\u0456\u0447\u043D\u0430 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0430",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 11
+    }
+  }, "\u0415\u043A\u043E\u043D\u043E\u043C\u0456\u0447\u043D\u0430 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0430")), __jsx("select", {
+    id: "days",
+    name: "days",
+    value: day,
+    onChange: function onChange() {
+      return setDay(event.target.value);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 9
+    }
+  }, __jsx("option", {
+    value: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 11
+    }
+  }, "\u041E\u0431\u0435\u0440\u0456\u0442\u044C \u0434\u0435\u043D\u044C"), __jsx("option", {
+    value: "\u043F\u043E\u043D\u0435\u0434\u0456\u043B\u043E\u043A",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 11
+    }
+  }, "\u041F\u043E\u043D\u0435\u0434\u0456\u043B\u043E\u043A"), __jsx("option", {
+    value: "\u0432\u0456\u0432\u0442\u043E\u0440\u043E\u043A",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 11
+    }
+  }, "\u0412\u0456\u0432\u0442\u043E\u0440\u043E\u043A"), __jsx("option", {
+    value: "\u0441\u0435\u0440\u0435\u0434\u0430",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 11
+    }
+  }, "\u0421\u0435\u0440\u0435\u0434\u0430"), __jsx("option", {
+    value: "\u0447\u0435\u0442\u0432\u0435\u0440",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 11
+    }
+  }, "\u0427\u0435\u0442\u0432\u0435\u0440"), __jsx("option", {
+    value: "\u043F'\u044F\u0442\u043D\u0438\u0446\u044F",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87,
+      columnNumber: 11
+    }
+  }, "\u041F'\u044F\u0442\u043D\u0438\u0446\u044F")), __jsx("input", {
+    type: "search",
+    name: "search",
+    id: "search",
+    value: search,
+    onChange: function onChange() {
+      return updateSearch(event.target.value);
+    },
+    placeholder: "\u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0432\u0438\u043A\u043B\u0430\u0434\u0430\u0447\u0430",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89,
+      columnNumber: 9
+    }
+  })), scheduleDay.map(function (lessonDay, key) {
+    return __jsx(Schedule, {
+      day: lessonDay,
+      key: key,
+      selectedDay: day,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 99,
+        columnNumber: 9
+      }
+    });
+  }));
+};
+
+var Schedule = function Schedule(props) {
+  return __jsx("div", {
+    className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.day,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.header,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108,
+      columnNumber: 7
+    }
+  }, __jsx("span", {
+    className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.weekday,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109,
+      columnNumber: 9
+    }
+  }, props.day.day), __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110,
+      columnNumber: 9
+    }
+  }, props.day.department)), __jsx("div", {
+    className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.lecturer,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112,
+      columnNumber: 7
+    }
+  }, props.day.lecturer), props.day.lessons.map(function (lesson) {
+    return __jsx("div", {
+      className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.lesson,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 114,
+        columnNumber: 9
+      }
+    }, __jsx("div", {
+      className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.start,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 115,
+        columnNumber: 11
+      }
+    }, lesson.start), __jsx("div", {
+      className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.groupAndAudience,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 116,
+        columnNumber: 11
+      }
+    }, __jsx("span", {
+      className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.group,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117,
+        columnNumber: 13
+      }
+    }, lesson.group), __jsx("span", {
+      className: _lecturer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.group,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 118,
+        columnNumber: 13
+      }
+    }, lesson.subject, ","), __jsx("span", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 119,
+        columnNumber: 13
+      }
+    }, lesson.audience)));
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Lecturer);
+
+/***/ }),
+
+/***/ "./pages/schedule/components/Students/index.jsx":
+/*!******************************************************!*\
+  !*** ./pages/schedule/components/Students/index.jsx ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _students_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./students.scss */ "./pages/schedule/components/Students/students.scss");
+/* harmony import */ var _students_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_students_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _api_schedule_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../api/schedule.json */ "./api/schedule.json");
+var _api_schedule_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../../api/schedule.json */ "./api/schedule.json", 1);
+var _this = undefined,
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/pages/schedule/components/Students/index.jsx";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var Students = function Students() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(1),
+      courseBtn = _useState[0],
+      setCourse = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
+      specialty = _useState2[0],
+      setSpecialty = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
+      day = _useState3[0],
+      setDay = _useState3[1];
+
+  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
+      search = _useState4[0],
+      updateSearch = _useState4[1];
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(5),
+      visible = _useState5[0],
+      increaseVisible = _useState5[1];
+
+  var scheduleDay = []; // бере дані з локалки
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    var specialty = localStorage.getItem("specialty");
+    specialty ? setSpecialty(specialty) : setSpecialty("");
+    var day = localStorage.getItem("day");
+    day ? setDay(day) : setDay("");
+    var search = localStorage.getItem("search");
+    search ? updateSearch(search) : updateSearch("");
+  }, []); // зберігають дані в локалку
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    window.localStorage.setItem("specialty", specialty);
+  }, [specialty]);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    window.localStorage.setItem("day", day);
+  }, [day]);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    window.localStorage.setItem("search", search);
+  }, [search]);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    filteredSchedule;
+  }); // Фільтр даних по курсу, спеціальності, дню та пошук
+
+  var filteredSchedule = _api_schedule_json__WEBPACK_IMPORTED_MODULE_2__.map(function (course) {
+    return course.filter(function (schoolDay) {
+      var byCourse = schoolDay.course === courseBtn;
+      var bySpecialty = schoolDay.specialty.indexOf(specialty) !== -1;
+      var byDay = schoolDay.day.indexOf(day) !== -1;
+      var bySearch = schoolDay.group.indexOf(search.toUpperCase()) !== -1 || schoolDay.specialty.indexOf(search.toUpperCase()) !== -1;
+
+      if (search === "" && courseBtn != 0) {
+        return byCourse && bySpecialty && byDay;
+      } else {
+        return byDay && bySearch;
+      }
+    });
+  }); // Всі вхідні дані заносяться у масив. За допомогою масиву і слайсу реалізовується пагінація
+
+  filteredSchedule.map(function (course) {
+    return course.map(function (group) {
+      return scheduleDay.push(group);
+    });
+  }); // TODO: зробити нормальну маску вводу для групи
+  // const pigr = "pi1702";
+  // const regExp = /([a-z]{2})?([0-9]{2})?([0-9]{2})/g;
+  // console.log(pigr.replace(regExp, "$1-$2-$3"));
+
+  return __jsx("div", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.students,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.filter,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.radios,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 9
+    }
+  }, "\u041A\u0443\u0440\u0441:", " ", __jsx("span", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.radio,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 11
+    }
+  }, __jsx("label", {
+    htmlFor: "firstCourse",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 13
+    }
+  }, "1"), __jsx("input", {
+    type: "radio",
+    name: "course",
+    id: "firstCourse",
+    defaultChecked: true,
+    onChange: function onChange() {
+      return setCourse(1);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 13
+    }
+  })), __jsx("span", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.radio,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 11
+    }
+  }, __jsx("label", {
+    htmlFor: "secondCourse",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 13
+    }
+  }, "2"), __jsx("input", {
+    type: "radio",
+    name: "course",
+    id: "secondCourse",
+    onChange: function onChange() {
+      return setCourse(2);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87,
+      columnNumber: 13
+    }
+  })), __jsx("span", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.radio,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94,
+      columnNumber: 11
+    }
+  }, __jsx("label", {
+    htmlFor: "thirdCourse",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 13
+    }
+  }, "3"), __jsx("input", {
+    type: "radio",
+    name: "course",
+    id: "thirdCourse",
+    onChange: function onChange() {
+      return setCourse(3);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 13
+    }
+  })), __jsx("span", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.radio,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103,
+      columnNumber: 11
+    }
+  }, __jsx("label", {
+    htmlFor: "fourthCourse",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104,
+      columnNumber: 13
+    }
+  }, "4"), __jsx("input", {
+    type: "radio",
+    name: "course",
+    id: "fourthCourse",
+    onChange: function onChange() {
+      return setCourse(4);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105,
+      columnNumber: 13
+    }
+  }))), __jsx("select", {
+    id: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.specialty,
+    name: "specialty",
+    value: specialty,
+    onChange: function onChange() {
+      return setSpecialty(event.target.value);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113,
+      columnNumber: 9
+    }
+  }, __jsx("option", {
+    value: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119,
+      columnNumber: 11
+    }
+  }, "\u041E\u0431\u0435\u0440\u0456\u0442\u044C \u0441\u043F\u0435\u0446\u0456\u0430\u043B\u044C\u043D\u0456\u0441\u0442\u044C"), __jsx("option", {
+    value: "PI",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120,
+      columnNumber: 11
+    }
+  }, "\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u0430 \u0456\u043D\u0436\u0435\u043D\u0435\u0440\u0456\u044F"), __jsx("option", {
+    value: "KI",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121,
+      columnNumber: 11
+    }
+  }, "\u041A\u043E\u043C\u043F'\u044E\u0442\u0435\u0440\u043D\u0430 \u0456\u043D\u0436\u0435\u043D\u0435\u0440\u0456\u044F"), __jsx("option", {
+    value: "AK",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122,
+      columnNumber: 11
+    }
+  }, "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u044F \u043A\u043E\u043C\u043F'\u044E\u0442\u0435\u0440\u043D\u043E-\u0456\u043D\u0442\u0435\u0433\u0440\u043E\u0432\u0430\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457"), __jsx("option", {
+    value: "L",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125,
+      columnNumber: 11
+    }
+  }, "\u0415\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u0456\u043A\u0430")), __jsx("select", {
+    id: "days",
+    name: "days",
+    value: day,
+    onChange: function onChange() {
+      return setDay(event.target.value);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 127,
+      columnNumber: 9
+    }
+  }, __jsx("option", {
+    value: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 133,
+      columnNumber: 11
+    }
+  }, "\u041E\u0431\u0435\u0440\u0456\u0442\u044C \u0434\u0435\u043D\u044C"), __jsx("option", {
+    value: "\u043F\u043E\u043D\u0435\u0434\u0456\u043B\u043E\u043A",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134,
+      columnNumber: 11
+    }
+  }, "\u041F\u043E\u043D\u0435\u0434\u0456\u043B\u043E\u043A"), __jsx("option", {
+    value: "\u0432\u0456\u0432\u0442\u043E\u0440\u043E\u043A",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135,
+      columnNumber: 11
+    }
+  }, "\u0412\u0456\u0432\u0442\u043E\u0440\u043E\u043A"), __jsx("option", {
+    value: "\u0441\u0435\u0440\u0435\u0434\u0430",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136,
+      columnNumber: 11
+    }
+  }, "\u0421\u0435\u0440\u0435\u0434\u0430"), __jsx("option", {
+    value: "\u0447\u0435\u0442\u0432\u0435\u0440",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 137,
+      columnNumber: 11
+    }
+  }, "\u0427\u0435\u0442\u0432\u0435\u0440"), __jsx("option", {
+    value: "\u043F'\u044F\u0442\u043D\u0438\u0446\u044F",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138,
+      columnNumber: 11
+    }
+  }, "\u041F'\u044F\u0442\u043D\u0438\u0446\u044F")), __jsx("input", {
+    type: "search",
+    name: "search",
+    id: "search",
+    value: search,
+    onChange: function onChange() {
+      return updateSearch(event.target.value);
+    },
+    placeholder: "\u0412\u0432\u0435\u0434\u0456\u0442\u044C \u043D\u0430\u0437\u0432\u0443 \u0433\u0440\u0443\u043F\u0438",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140,
+      columnNumber: 9
+    }
+  })), __jsx("div", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.schedule,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 149,
+      columnNumber: 7
+    }
+  }, scheduleDay.slice(0, visible).map(function (lessonDay, key) {
+    return __jsx(Schedule, {
+      day: lessonDay,
+      key: key,
+      selectedDay: day,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 151,
+        columnNumber: 11
+      }
+    });
+  })), scheduleDay.length > visible ? __jsx("button", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.pagination,
+    onClick: function onClick() {
+      return increaseVisible(visible + 5);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 155,
+      columnNumber: 9
+    }
+  }, "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u0438 \u0431\u0456\u043B\u044C\u0448\u0435") : undefined);
+}; // Розклад студентів
+
+
+var Schedule = function Schedule(props) {
+  return __jsx("div", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.day,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 169,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.header,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 170,
+      columnNumber: 7
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 171,
+      columnNumber: 9
+    }
+  }, props.day.day), props.day.day === "понеділок" ? props.day.group : undefined, props.day.day !== "понеділок" && props.selectedDay !== "понеділок" && props.selectedDay !== "" ? props.day.group : undefined), props.day.lessons.map(function (lesson) {
+    return __jsx("div", {
+      className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.lesson,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 180,
+        columnNumber: 9
+      }
+    }, __jsx("div", {
+      className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.start,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 181,
+        columnNumber: 11
+      }
+    }, lesson.start), __jsx("div", {
+      className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.subjectAndLecturer,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 182,
+        columnNumber: 11
+      }
+    }, __jsx("div", {
+      className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.subject,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 183,
+        columnNumber: 13
+      }
+    }, lesson.subject), __jsx("span", {
+      className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.lecturer,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 184,
+        columnNumber: 13
+      }
+    }, lesson.lecturer), __jsx("span", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 185,
+        columnNumber: 13
+      }
+    }, lesson.audience)));
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Students);
+
+/***/ }),
+
+/***/ "./pages/schedule/index.jsx":
+/*!**********************************!*\
+  !*** ./pages/schedule/index.jsx ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout/index.jsx");
+/* harmony import */ var _components_Tabs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Tabs */ "./components/Tabs/index.jsx");
+/* harmony import */ var _components_Students__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Students */ "./pages/schedule/components/Students/index.jsx");
+/* harmony import */ var _schedule_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./schedule.scss */ "./pages/schedule/schedule.scss");
+/* harmony import */ var _schedule_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_schedule_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_Lecturer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Lecturer */ "./pages/schedule/components/Lecturer/index.jsx");
+var _this = undefined,
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/pages/schedule/index.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -22999,44 +23861,75 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var Index = function Index(_ref) {
+
+
+var Schedule = function Schedule(_ref) {
   var className = _ref.className;
   return __jsx("main", {
-    className: (_index_scss__WEBPACK_IMPORTED_MODULE_3___default.a.index, className),
+    className: className,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 5
+      lineNumber: 10,
+      columnNumber: 3
     }
   }, __jsx("div", {
-    className: _index_scss__WEBPACK_IMPORTED_MODULE_3___default.a.banner,
+    className: _schedule_scss__WEBPACK_IMPORTED_MODULE_5___default.a.date,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 11,
+      columnNumber: 5
+    }
+  }, moment__WEBPACK_IMPORTED_MODULE_1___default()().locale("uk").format("D MMMM, dddd"), " "), __jsx(_components_Tabs__WEBPACK_IMPORTED_MODULE_3__["Tabs"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 5
+    }
+  }, __jsx(_components_Tabs__WEBPACK_IMPORTED_MODULE_3__["Panel"], {
+    title: "\u0413\u0420\u0423\u041F\u0418",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
       columnNumber: 7
     }
-  }, "\u041F\u0435\u0440\u0448\u0438\u0439 \u0435\u0442\u0430\u043F \u0430\u043B\u044C\u0444\u0438"), _api_news_json__WEBPACK_IMPORTED_MODULE_4__.map(function (post) {
-    return __jsx(_components_News__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      key: post.id,
-      post: post,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 11,
-        columnNumber: 9
-      }
-    });
-  }));
-}; // Index.getInitialProps = async ctx => {
-//   const res = await fetch(posts);
-//   const json = await res.json();
-//   return { posts: data };
-// };
+  }, __jsx(_components_Students__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 9
+    }
+  })), __jsx(_components_Tabs__WEBPACK_IMPORTED_MODULE_3__["Panel"], {
+    title: "\u0412\u0418\u041A\u041B\u0410\u0414\u0410\u0427\u0406",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  })), __jsx(_components_Tabs__WEBPACK_IMPORTED_MODULE_3__["Panel"], {
+    title: "\u0410\u0423\u0414\u0418\u0422\u041E\u0420\u0406\u0407",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, "\xAF\\_(\u30C4)_/\xAF")));
+};
 
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"])(Index));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"])(Schedule));
 
 /***/ }),
 
@@ -23106,14 +23999,14 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQi
 
 /***/ }),
 
-/***/ 1:
-/*!*****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Findex%2Findex.jsx ***!
-  \*****************************************************************************************************************************************************************/
+/***/ 9:
+/*!****************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fschedule&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fschedule%2Findex.jsx ***!
+  \****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Findex%2Findex.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Findex%2Findex.jsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fschedule&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fschedule%2Findex.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fschedule&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fschedule%2Findex.jsx!./");
 
 
 /***/ }),
@@ -23129,5 +24022,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+},[[9,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=schedule.js.map
