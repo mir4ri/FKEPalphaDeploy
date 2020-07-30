@@ -1,102 +1,150 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/entrants.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/entrants/examinationPrograms.js"],{
 
-/***/ "./api/course.json":
-/*!*************************!*\
-  !*** ./api/course.json ***!
-  \*************************/
+/***/ "./api/examinationPrograms.json":
+/*!**************************************!*\
+  !*** ./api/examinationPrograms.json ***!
+  \**************************************/
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"photo\":\"/static/img/entrants.jpg\",\"title\":\"Інженерія програмного забезпечення\",\"text\":\"Commodo, auctor facilisis lacus pellentesque cursus egestas imperdiet lectus commodo. Mauris feugiat sed aliquet a eleifend enim. Ut aliquam velit amet, adipiscing feugiat non sit. Senectus suspendisse nisi viverra nisl sed egestas at posuere placerat. Mollis habitasse lectus tortor habitasse fermentum libero, purus turpis enim. Purus vitae malesuada massa at eu facilisis.\",\"url\":\"PI\"},{\"photo\":\"/static/img/entrants.jpg\",\"title\":\"Комп’ютерна інженерія\",\"text\":\"Commodo, auctor facilisis lacus pellentesque cursus egestas imperdiet lectus commodo. Mauris feugiat sed aliquet a eleifend enim. Ut aliquam velit amet, adipiscing feugiat non sit. Senectus suspendisse nisi viverra nisl sed egestas at posuere placerat. Mollis habitasse lectus tortor habitasse fermentum libero, purus turpis enim. Purus vitae malesuada massa at eu facilisis.\",\"url\":\"PI\"},{\"photo\":\"/static/img/entrants.jpg\",\"title\":\"Автоматизація та комп’ютерно-інтегровані технології\",\"text\":\"Commodo, auctor facilisis lacus pellentesque cursus egestas imperdiet lectus commodo. Mauris feugiat sed aliquet a eleifend enim. Ut aliquam velit amet, adipiscing feugiat non sit. Senectus suspendisse nisi viverra nisl sed egestas at posuere placerat. Mollis habitasse lectus tortor habitasse fermentum libero, purus turpis enim. Purus vitae malesuada massa at eu facilisis.\",\"url\":\"PI\"},{\"photo\":\"/static/img/entrants.jpg\",\"title\":\"Фінанси, банківська справа та страхування\",\"text\":\"Commodo, auctor facilisis lacus pellentesque cursus egestas imperdiet lectus commodo. Mauris feugiat sed aliquet a eleifend enim. Ut aliquam velit amet, adipiscing feugiat non sit. Senectus suspendisse nisi viverra nisl sed egestas at posuere placerat. Mollis habitasse lectus tortor habitasse fermentum libero, purus turpis enim. Purus vitae malesuada massa at eu facilisis.\",\"url\":\"PI\"},{\"photo\":\"/static/img/entrants.jpg\",\"title\":\"Підприємництво, торгівля та біржова діяльність\",\"text\":\"Commodo, auctor facilisis lacus pellentesque cursus egestas imperdiet lectus commodo. Mauris feugiat sed aliquet a eleifend enim. Ut aliquam velit amet, adipiscing feugiat non sit. Senectus suspendisse nisi viverra nisl sed egestas at posuere placerat. Mollis habitasse lectus tortor habitasse fermentum libero, purus turpis enim. Purus vitae malesuada massa at eu facilisis.\",\"url\":\"PI\"},{\"photo\":\"/static/img/entrants.jpg\",\"title\":\"Прикладна механіка\",\"text\":\"Commodo, auctor facilisis lacus pellentesque cursus egestas imperdiet lectus commodo. Mauris feugiat sed aliquet a eleifend enim. Ut aliquam velit amet, adipiscing feugiat non sit. Senectus suspendisse nisi viverra nisl sed egestas at posuere placerat. Mollis habitasse lectus tortor habitasse fermentum libero, purus turpis enim. Purus vitae malesuada massa at eu facilisis.\",\"url\":\"PI\"},{\"photo\":\"/static/img/entrants.jpg\",\"title\":\"Електроніка\",\"text\":\"Commodo, auctor facilisis lacus pellentesque cursus egestas imperdiet lectus commodo. Mauris feugiat sed aliquet a eleifend enim. Ut aliquam velit amet, adipiscing feugiat non sit. Senectus suspendisse nisi viverra nisl sed egestas at posuere placerat. Mollis habitasse lectus tortor habitasse fermentum libero, purus turpis enim. Purus vitae malesuada massa at eu facilisis.\",\"url\":\"PI\"},{\"photo\":\"/static/img/entrants.jpg\",\"title\":\"Телекомунікації та радіотехніка\",\"text\":\"Commodo, auctor facilisis lacus pellentesque cursus egestas imperdiet lectus commodo. Mauris feugiat sed aliquet a eleifend enim. Ut aliquam velit amet, adipiscing feugiat non sit. Senectus suspendisse nisi viverra nisl sed egestas at posuere placerat. Mollis habitasse lectus tortor habitasse fermentum libero, purus turpis enim. Purus vitae malesuada massa at eu facilisis.\",\"url\":\"PI\"},{\"photo\":\"/static/img/entrants.jpg\",\"title\":\"Метрологія та інформаційно-вимірювальна техніка\",\"text\":\"Commodo, auctor facilisis lacus pellentesque cursus egestas imperdiet lectus commodo. Mauris feugiat sed aliquet a eleifend enim. Ut aliquam velit amet, adipiscing feugiat non sit. Senectus suspendisse nisi viverra nisl sed egestas at posuere placerat. Mollis habitasse lectus tortor habitasse fermentum libero, purus turpis enim. Purus vitae malesuada massa at eu facilisis.\",\"url\":\"PI\"}]");
+module.exports = JSON.parse("[{\"title\":\"Фінанси, банківська справа та страхування\",\"document\":\"https://drive.google.com/file/d/1FRtFQ1CN3uob9ScF1b8AQs-a6tOhkaOh/preview\"},{\"title\":\"Підприємництво, торгівля та біржова діяльність\",\"document\":\"https://drive.google.com/file/d/1FRtFQ1CN3uob9ScF1b8AQs-a6tOhkaOh/preview\"},{\"title\":\"Інженерія програмного забезпечення\",\"document\":\"https://drive.google.com/file/d/1FRtFQ1CN3uob9ScF1b8AQs-a6tOhkaOh/preview\"},{\"title\":\"Комп’ютерна інженерія\",\"document\":\"https://drive.google.com/file/d/1FRtFQ1CN3uob9ScF1b8AQs-a6tOhkaOh/preview\"},{\"title\":\"Прикладна механіка\",\"document\":\"https://drive.google.com/file/d/1FRtFQ1CN3uob9ScF1b8AQs-a6tOhkaOh/preview\"},{\"title\":\"Автоматизація та комп’ютерно-інтегровані технології\",\"document\":\"https://drive.google.com/file/d/1FRtFQ1CN3uob9ScF1b8AQs-a6tOhkaOh/preview\"},{\"title\":\"Метрологія та інформаційно-вимірювальна техніка\",\"document\":\"https://drive.google.com/file/d/1FRtFQ1CN3uob9ScF1b8AQs-a6tOhkaOh/preview\"},{\"title\":\"Електроніка\",\"document\":\"https://drive.google.com/file/d/1FRtFQ1CN3uob9ScF1b8AQs-a6tOhkaOh/preview\"},{\"title\":\"Телекомунікації та радіотехніка\",\"document\":\"https://drive.google.com/file/d/1FRtFQ1CN3uob9ScF1b8AQs-a6tOhkaOh/preview\"}]");
 
 /***/ }),
 
-/***/ "./components/Card/index.jsx":
-/*!***********************************!*\
-  !*** ./components/Card/index.jsx ***!
-  \***********************************/
+/***/ "./components/Accordion/index.jsx":
+/*!****************************************!*\
+  !*** ./components/Accordion/index.jsx ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/Link */ "./node_modules/next/Link.js");
-/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./components/Card/style.scss");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./components/Accordion/style.scss");
 /* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_2__);
+
+
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/Card/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/Accordion/index.jsx";
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
-var Card = function Card(props) {
+var Accordion = function Accordion(_ref) {
+  var documents = _ref.documents;
   return __jsx("div", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.card,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
       columnNumber: 5
     }
-  }, __jsx("img", {
-    src: props.course.photo,
-    alt: "title photo",
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.img,
+  }, __jsx("ul", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.accordion_list,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
       columnNumber: 7
     }
-  }), __jsx("div", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.about,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 7
-    }
-  }, __jsx("h4", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.title,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 9
-    }
-  }, props.course.title), __jsx("p", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.text,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 9
-    }
-  }, props.course.text), __jsx(next_Link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/entrants/".concat(props.course.url),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 9
-    }
-  }, __jsx("a", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.link,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 11
-    }
-  }, "\u0414\u0435\u0442\u0430\u043B\u044C\u043D\u0456\u0448\u0435"))));
+  }, documents.map(function (document, key) {
+    return __jsx("li", {
+      className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.accordion_list_item,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 13
+      }
+    }, __jsx(AccordionItem, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, document, {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 15
+      }
+    })));
+  })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Card);
+var AccordionItem = function AccordionItem(_ref2) {
+  var title = _ref2.title,
+      document = _ref2.document;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
+      accordionState = _useState[0],
+      toggleAccordion = _useState[1];
+
+  return __jsx("div", {
+    className: "".concat(_style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.accordion_item, ", ").concat(accordionState && _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.accordion_item__opened),
+    onClick: function onClick() {
+      toggleAccordion(!accordionState);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.accordion_item__line,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 7
+    }
+  }, __jsx("span", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.accordion_item__icon,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }), __jsx("h3", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.accordion_item__title,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }, title)), __jsx("div", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.accordion_item__inner,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.accordion_item__content,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 9
+    }
+  }, __jsx("iframe", {
+    src: document,
+    width: "100%",
+    height: "600px",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 11
+    }
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Accordion);
 
 /***/ }),
 
@@ -1032,63 +1080,6 @@ var Nav = function Nav() {
 
 /***/ }),
 
-/***/ "./components/NavButton/index.jsx":
-/*!****************************************!*\
-  !*** ./components/NavButton/index.jsx ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/Link */ "./node_modules/next/Link.js");
-/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./components/NavButton/style.scss");
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/NavButton/index.jsx";
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-var NavButton = function NavButton(_ref) {
-  var text = _ref.text,
-      textColor = _ref.textColor,
-      link = _ref.link;
-  var styles = {
-    color: textColor,
-    border: "1px solid ".concat(textColor)
-  };
-  return __jsx(next_Link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: link,
-    as: process.env.BACKEND_URL + "/" + link,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 5
-    }
-  }, __jsx("a", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.navBtn,
-    style: styles,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 7
-    }
-  }, text));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (NavButton);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/process/browser.js */ "./node_modules/process/browser.js")))
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayWithHoles.js ***!
@@ -1207,6 +1198,36 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/extends.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
 
 /***/ }),
 
@@ -1643,21 +1664,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fentrants&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fentrants%2Findex.jsx!./":
-/*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fentrants&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fentrants%2Findex.jsx ***!
-  \************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fentrants%2FexaminationPrograms&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fentrants%2FexaminationPrograms%2Findex.jsx!./":
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fentrants%2FexaminationPrograms&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fentrants%2FexaminationPrograms%2Findex.jsx ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/entrants", function() {
-      var mod = __webpack_require__(/*! ./pages/entrants/index.jsx */ "./pages/entrants/index.jsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/entrants/examinationPrograms", function() {
+      var mod = __webpack_require__(/*! ./pages/entrants/examinationPrograms/index.jsx */ "./pages/entrants/examinationPrograms/index.jsx")
       if(true) {
-        module.hot.accept(/*! ./pages/entrants/index.jsx */ "./pages/entrants/index.jsx", function() {
-          if(!next.router.components["/entrants"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/entrants/index.jsx */ "./pages/entrants/index.jsx")
-          next.router.update("/entrants", updatedPage)
+        module.hot.accept(/*! ./pages/entrants/examinationPrograms/index.jsx */ "./pages/entrants/examinationPrograms/index.jsx", function() {
+          if(!next.router.components["/entrants/examinationPrograms"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/entrants/examinationPrograms/index.jsx */ "./pages/entrants/examinationPrograms/index.jsx")
+          next.router.update("/entrants/examinationPrograms", updatedPage)
         })
       }
       return mod
@@ -3409,201 +3430,6 @@ function formatWithValidation(url, options) {
 exports.formatWithValidation = formatWithValidation;
 exports.SP = typeof performance !== 'undefined';
 exports.ST = exports.SP && typeof performance.mark === 'function' && typeof performance.measure === 'function';
-
-/***/ }),
-
-/***/ "./node_modules/process/browser.js":
-/*!*****************************************!*\
-  !*** ./node_modules/process/browser.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// shim for using process in browser
-var process = module.exports = {};
-
-// cached from whatever global is present so that test runners that stub it
-// don't break things.  But we need to wrap it in a try catch in case it is
-// wrapped in strict mode code which doesn't define any globals.  It's inside a
-// function because try/catches deoptimize in certain engines.
-
-var cachedSetTimeout;
-var cachedClearTimeout;
-
-function defaultSetTimout() {
-    throw new Error('setTimeout has not been defined');
-}
-function defaultClearTimeout () {
-    throw new Error('clearTimeout has not been defined');
-}
-(function () {
-    try {
-        if (typeof setTimeout === 'function') {
-            cachedSetTimeout = setTimeout;
-        } else {
-            cachedSetTimeout = defaultSetTimout;
-        }
-    } catch (e) {
-        cachedSetTimeout = defaultSetTimout;
-    }
-    try {
-        if (typeof clearTimeout === 'function') {
-            cachedClearTimeout = clearTimeout;
-        } else {
-            cachedClearTimeout = defaultClearTimeout;
-        }
-    } catch (e) {
-        cachedClearTimeout = defaultClearTimeout;
-    }
-} ())
-function runTimeout(fun) {
-    if (cachedSetTimeout === setTimeout) {
-        //normal enviroments in sane situations
-        return setTimeout(fun, 0);
-    }
-    // if setTimeout wasn't available but was latter defined
-    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
-        cachedSetTimeout = setTimeout;
-        return setTimeout(fun, 0);
-    }
-    try {
-        // when when somebody has screwed with setTimeout but no I.E. maddness
-        return cachedSetTimeout(fun, 0);
-    } catch(e){
-        try {
-            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
-            return cachedSetTimeout.call(null, fun, 0);
-        } catch(e){
-            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
-            return cachedSetTimeout.call(this, fun, 0);
-        }
-    }
-
-
-}
-function runClearTimeout(marker) {
-    if (cachedClearTimeout === clearTimeout) {
-        //normal enviroments in sane situations
-        return clearTimeout(marker);
-    }
-    // if clearTimeout wasn't available but was latter defined
-    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
-        cachedClearTimeout = clearTimeout;
-        return clearTimeout(marker);
-    }
-    try {
-        // when when somebody has screwed with setTimeout but no I.E. maddness
-        return cachedClearTimeout(marker);
-    } catch (e){
-        try {
-            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
-            return cachedClearTimeout.call(null, marker);
-        } catch (e){
-            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
-            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
-            return cachedClearTimeout.call(this, marker);
-        }
-    }
-
-
-
-}
-var queue = [];
-var draining = false;
-var currentQueue;
-var queueIndex = -1;
-
-function cleanUpNextTick() {
-    if (!draining || !currentQueue) {
-        return;
-    }
-    draining = false;
-    if (currentQueue.length) {
-        queue = currentQueue.concat(queue);
-    } else {
-        queueIndex = -1;
-    }
-    if (queue.length) {
-        drainQueue();
-    }
-}
-
-function drainQueue() {
-    if (draining) {
-        return;
-    }
-    var timeout = runTimeout(cleanUpNextTick);
-    draining = true;
-
-    var len = queue.length;
-    while(len) {
-        currentQueue = queue;
-        queue = [];
-        while (++queueIndex < len) {
-            if (currentQueue) {
-                currentQueue[queueIndex].run();
-            }
-        }
-        queueIndex = -1;
-        len = queue.length;
-    }
-    currentQueue = null;
-    draining = false;
-    runClearTimeout(timeout);
-}
-
-process.nextTick = function (fun) {
-    var args = new Array(arguments.length - 1);
-    if (arguments.length > 1) {
-        for (var i = 1; i < arguments.length; i++) {
-            args[i - 1] = arguments[i];
-        }
-    }
-    queue.push(new Item(fun, args));
-    if (queue.length === 1 && !draining) {
-        runTimeout(drainQueue);
-    }
-};
-
-// v8 likes predictible objects
-function Item(fun, array) {
-    this.fun = fun;
-    this.array = array;
-}
-Item.prototype.run = function () {
-    this.fun.apply(null, this.array);
-};
-process.title = 'browser';
-process.browser = true;
-process.env = {};
-process.argv = [];
-process.version = ''; // empty string to avoid regexp issues
-process.versions = {};
-
-function noop() {}
-
-process.on = noop;
-process.addListener = noop;
-process.once = noop;
-process.off = noop;
-process.removeListener = noop;
-process.removeAllListeners = noop;
-process.emit = noop;
-process.prependListener = noop;
-process.prependOnceListener = noop;
-
-process.listeners = function (name) { return [] }
-
-process.binding = function (name) {
-    throw new Error('process.binding is not supported');
-};
-
-process.cwd = function () { return '/' };
-process.chdir = function (dir) {
-    throw new Error('process.chdir is not supported');
-};
-process.umask = function() { return 0; };
-
 
 /***/ }),
 
@@ -5563,10 +5389,10 @@ try {
 
 /***/ }),
 
-/***/ "./pages/entrants/index.jsx":
-/*!**********************************!*\
-  !*** ./pages/entrants/index.jsx ***!
-  \**********************************/
+/***/ "./pages/entrants/examinationPrograms/index.jsx":
+/*!******************************************************!*\
+  !*** ./pages/entrants/examinationPrograms/index.jsx ***!
+  \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5574,15 +5400,14 @@ try {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout/index.jsx");
-/* harmony import */ var _components_NavButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/NavButton */ "./components/NavButton/index.jsx");
-/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Card */ "./components/Card/index.jsx");
-/* harmony import */ var _api_course_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../api/course.json */ "./api/course.json");
-var _api_course_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../api/course.json */ "./api/course.json", 1);
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.scss */ "./pages/entrants/style.scss");
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/Layout */ "./components/Layout/index.jsx");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./pages/entrants/examinationPrograms/style.scss");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _api_examinationPrograms_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../api/examinationPrograms.json */ "./api/examinationPrograms.json");
+var _api_examinationPrograms_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../api/examinationPrograms.json */ "./api/examinationPrograms.json", 1);
+/* harmony import */ var _components_Accordion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/Accordion */ "./components/Accordion/index.jsx");
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/pages/entrants/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/pages/entrants/examinationPrograms/index.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -5591,104 +5416,105 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-var Entrants = function Entrants(_ref) {
+var Rules = function Rules(_ref) {
   var className = _ref.className;
   return __jsx("main", {
     className: className,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 8,
       columnNumber: 3
     }
   }, __jsx("h2", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_5___default.a.title,
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.title,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 9,
       columnNumber: 5
     }
-  }, "\u0410\u0431\u0456\u0442\u0443\u0440\u0456\u0454\u043D\u0442\u0430\u043C"), __jsx("div", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_5___default.a.linkBtns,
+  }, "\u041F\u0440\u0430\u0432\u0438\u043B\u0430 \u043F\u0440\u0438\u0439\u043E\u043C\u0443 \u0442\u0430 \u0456\u043D\u0448\u0456 \u043D\u043E\u0440\u043C\u0430\u0442\u0438\u0432\u043D\u0456 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438"), __jsx("span", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.blue,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 5
+    }
+  }, "(\u0412\u0441\u044F \u0456\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0456\u044F \u043D\u0430 \u0446\u0456\u0439 \u0441\u0442\u043E\u0440\u0456\u043D\u0446\u0456 \u043C\u043E\u0436\u0435 \u0431\u0443\u0442\u0438 \u0437\u0430\u0441\u0442\u0430\u0440\u0456\u043B\u043E\u044E. \u0414\u0435\u0442\u0430\u043B\u044C\u043D\u0443 \u0456\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0456\u044E \u043C\u043E\u0436\u0435 \u0434\u0456\u0437\u043D\u0430\u0442\u0438\u0441\u044F ", __jsx("a", {
+    href: "https://www.ifkepnung.if.ua/vstupnyk/perelikdokumentiv.html",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 124
+    }
+  }, "\u0442\u0443\u0442"), ")"), __jsx("a", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.link,
+    href: "#",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
       columnNumber: 5
     }
-  }, " ", __jsx(_components_NavButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    text: "Підготовчі курси",
-    link: "./entrants/preparatoryCourses",
-    textColor: "#00C0FF",
+  }, "\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0430 \u0432\u0441\u0442\u0443\u043F\u043D\u043E\u0433\u043E \u0432\u0438\u043F\u0440\u043E\u0431\u0443\u0432\u0430\u043D\u043D\u044F \u0437 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0438 \xAB\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430\xBB \u0434\u043B\u044F \u0432\u0441\u0442\u0443\u043F\u0443 \u043D\u0430 \u043F\u0435\u0440\u0448\u0438\u0439 \u043A\u0443\u0440\u0441 \u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F (2020)"), __jsx("a", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.link,
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, "\u0417\u0431\u0456\u0440\u043D\u0438\u043A \u0442\u0435\u0441\u0442\u043E\u0432\u0438\u0445 \u0437\u0430\u0432\u0434\u0430\u043D\u044C \u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430"), __jsx("a", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.link,
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 5
+    }
+  }, "\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0430 \u0432\u0441\u0442\u0443\u043F\u043D\u043E\u0433\u043E \u0432\u0438\u043F\u0440\u043E\u0431\u0443\u0432\u0430\u043D\u043D\u044F \u0437 \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0456\u043D\u0438 \xAB\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430\xBB \u0434\u043B\u044F \u0432\u0441\u0442\u0443\u043F\u0443 \u043D\u0430 \u043F\u0435\u0440\u0448\u0438\u0439 \u043A\u0443\u0440\u0441 \u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F (2020)"), __jsx("a", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.link,
+    href: "#",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 7
-    }
-  }), __jsx(_components_NavButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    text: "Правила прийому та інші нормативні документи",
-    link: "./entrants/rules",
-    textColor: "#141414",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 7
-    }
-  }), __jsx(_components_NavButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    text: "Програми вступних випробувань",
-    link: "./entrants/examinationPrograms",
-    textColor: "#141414",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 7
-    }
-  }), __jsx(_components_NavButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    text: "Інформація про зарахування",
-    link: "#",
-    textColor: "#141414",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 7
-    }
-  })), __jsx("h3", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_5___default.a.title,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
       columnNumber: 5
     }
-  }, "\u0421\u043F\u0435\u0446\u0456\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0456"), __jsx("div", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_5___default.a.about,
+  }, "\u0417\u0431\u0456\u0440\u043D\u0438\u043A \u0442\u0435\u0441\u0442\u043E\u0432\u0438\u0445 \u0437\u0430\u0432\u0434\u0430\u043D\u044C \u043C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0438"), __jsx("a", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.link,
+    href: "#",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 16,
       columnNumber: 5
     }
-  }, _api_course_json__WEBPACK_IMPORTED_MODULE_4__.map(function (course, index) {
-    return __jsx(_components_Card__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      course: course,
-      key: index,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39,
-        columnNumber: 9
-      }
-    });
-  })));
+  }, "\u0417\u0440\u0430\u0437\u043A\u0438 \u0432\u0441\u0442\u0443\u043F\u043D\u0438\u0445 \u0432\u0438\u043F\u0440\u043E\u0431\u0443\u0432\u0430\u043D\u044C"), __jsx("h3", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.subtitle,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 5
+    }
+  }, "\u041F\u0440\u0430\u0432\u0438\u043B\u0430 \u043F\u0440\u0438\u0439\u043E\u043C\u0443 \u0434\u043E \u041A\u043E\u043B\u0435\u0434\u0436\u0443 \u0435\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u0438\u0445 \u043F\u0440\u0438\u043B\u0430\u0434\u0456\u0432 \u0406\u0432\u0430\u043D\u043E-\u0424\u0440\u0430\u043D\u043A\u0456\u0432\u0441\u044C\u043A\u043E\u0433\u043E \u043D\u0430\u0446\u0456\u043E\u043D\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0442\u0435\u0445\u043D\u0456\u0447\u043D\u043E\u0433\u043E \u0443\u043D\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0443 \u043D\u0430\u0444\u0442\u0438 \u0456 \u0433\u0430\u0437\u0443 \u0432 2022 \u0440\u043E\u0446\u0456"), __jsx(_components_Accordion__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    documents: _api_examinationPrograms_json__WEBPACK_IMPORTED_MODULE_3__,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 5
+    }
+  }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"])(Entrants));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"])(Rules));
 
 /***/ }),
 
@@ -5758,14 +5584,14 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQi
 
 /***/ }),
 
-/***/ 14:
-/*!****************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fentrants&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fentrants%2Findex.jsx ***!
-  \****************************************************************************************************************************************************************************/
+/***/ 18:
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fentrants%2FexaminationPrograms&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fentrants%2FexaminationPrograms%2Findex.jsx ***!
+  \************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fentrants&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fentrants%2Findex.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fentrants&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fentrants%2Findex.jsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fentrants%2FexaminationPrograms&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fentrants%2FexaminationPrograms%2Findex.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fentrants%2FexaminationPrograms&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Fentrants%2FexaminationPrograms%2Findex.jsx!./");
 
 
 /***/ }),
@@ -5781,5 +5607,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[14,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=entrants.js.map
+},[[18,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=examinationPrograms.js.map
