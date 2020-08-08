@@ -827,7 +827,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7
 
 /***/ }),
 
-/***/ 11:
+/***/ 9:
 /*!**********************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
   \**********************************************************************************************************************************************************************************************************/
@@ -850,5 +850,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js"]]]);
+},[[9,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map
