@@ -594,96 +594,6 @@ var Header = function Header() {
 
 /***/ }),
 
-/***/ "./components/Layout/index.jsx":
-/*!*************************************!*\
-  !*** ./components/Layout/index.jsx ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Header */ "./components/Header/index.jsx");
-/* harmony import */ var _MobileNav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../MobileNav */ "./components/MobileNav/index.jsx");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Footer */ "./components/Footer/index.jsx");
-/* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Nav */ "./components/Nav/index.jsx");
-/* harmony import */ var _layout_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./layout.scss */ "./components/Layout/layout.scss");
-/* harmony import */ var _layout_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_layout_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep/components/Layout/index.jsx";
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-var withLayout = function withLayout(Page) {
-  return function () {
-    return __jsx("div", {
-      className: _layout_scss__WEBPACK_IMPORTED_MODULE_5___default.a.alignContainer,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 9,
-        columnNumber: 5
-      }
-    }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 10,
-        columnNumber: 7
-      }
-    }), __jsx("div", {
-      className: _layout_scss__WEBPACK_IMPORTED_MODULE_5___default.a.layoutContainer,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 11,
-        columnNumber: 7
-      }
-    }, __jsx(_Nav__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12,
-        columnNumber: 9
-      }
-    }), __jsx(Page, {
-      className: _layout_scss__WEBPACK_IMPORTED_MODULE_5___default.a.content,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13,
-        columnNumber: 9
-      }
-    }), __jsx(_MobileNav__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14,
-        columnNumber: 9
-      }
-    })), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16,
-        columnNumber: 7
-      }
-    }));
-  };
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (withLayout);
-
-/***/ }),
-
 /***/ "./components/MobileNav/index.jsx":
 /*!****************************************!*\
   !*** ./components/MobileNav/index.jsx ***!
@@ -23369,9 +23279,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout_layout_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_components_Layout_layout_scss__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout/index.jsx");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./styles.scss */ "./pages/post/styles.scss");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./styles.scss */ "./pages/post/styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_9__);
 var _this = undefined,
     _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep/pages/post/[id].jsx";
 
@@ -23383,7 +23292,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
+ // поки Next.js не пофіксить HOC
 
 
 
@@ -23392,7 +23301,6 @@ var Post = function Post(_ref) {
   var className = _ref.className,
       post = _ref.post;
   var router = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["useRouter"])();
-  console.log("props:" + " " + post);
   if (!post.id) return __jsx("p", {
     style: {
       textAlign: "center",
@@ -23402,7 +23310,7 @@ var Post = function Post(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 17,
       columnNumber: 7
     }
   }, "\u0423\u043F\u0441... \u0422\u0430\u043A\u043E\u0433\u043E \u043F\u043E\u0441\u0442\u0443 \u0449\u0435 \u043D\u0435 \u0456\u0441\u043D\u0443\u0454", " ", __jsx("button", {
@@ -23420,7 +23328,7 @@ var Post = function Post(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 22,
       columnNumber: 9
     }
   }, "\u0412\u0435\u0440\u043D\u0443\u0442\u0438\u0441\u044F \u043D\u0430\u0437\u0430\u0434"));
@@ -23429,37 +23337,55 @@ var Post = function Post(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 39,
       columnNumber: 5
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 40,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 41,
       columnNumber: 9
     }
   }, "\u0424\u041A\u0415\u041F - ", post.title), __jsx("meta", {
+    name: "theme-color",
+    content: "#558af1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
     name: "viewport",
     content: "initial-scale=1.0, width=device-width",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 43,
+      columnNumber: 9
+    }
+  }), __jsx("link", {
+    rel: "icon",
+    href: "/static/img/fav.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
       columnNumber: 9
     }
   })), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 46,
       columnNumber: 7
     }
   }), __jsx("div", {
@@ -23467,14 +23393,14 @@ var Post = function Post(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 47,
       columnNumber: 7
     }
   }, __jsx(_components_Nav__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 48,
       columnNumber: 9
     }
   }), __jsx("div", {
@@ -23482,71 +23408,71 @@ var Post = function Post(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 49,
       columnNumber: 9
     }
   }, post.photo ? __jsx("img", {
     src: post.photo,
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_10___default.a.photo,
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.photo,
     alt: post.title,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 51,
       columnNumber: 13
     }
   }) : undefined, __jsx("h2", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_10___default.a.title,
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.title,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 11
+    }
+  }, post.title), __jsx("p", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.text,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54,
       columnNumber: 11
     }
-  }, post.title), __jsx("p", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_10___default.a.text,
+  }, post.text), __jsx("p", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.text,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55,
       columnNumber: 11
     }
-  }, post.text), __jsx("p", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_10___default.a.text,
+  }, post.paragraph), __jsx("p", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.text,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 56,
       columnNumber: 11
     }
-  }, post.paragraph), __jsx("p", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_10___default.a.text,
+  }, post.end), __jsx("span", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.date,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57,
       columnNumber: 11
     }
-  }, post.end), __jsx("span", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_10___default.a.date,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 11
-    }
   }, moment__WEBPACK_IMPORTED_MODULE_8___default()(post.date).locale("uk").fromNow()), __jsx(_components_MobileNav__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 60,
       columnNumber: 11
     }
   }))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 63,
       columnNumber: 7
     }
   }));
@@ -23623,7 +23549,7 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQi
 
 /***/ }),
 
-/***/ 10:
+/***/ 14:
 /*!**************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpost%2F%5Bid%5D&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%2Fpages%2Fpost%2F%5Bid%5D.jsx ***!
   \**************************************************************************************************************************************************************************/
@@ -23646,5 +23572,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[14,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=[id].js.map
