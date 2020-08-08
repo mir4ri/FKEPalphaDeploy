@@ -7,7 +7,7 @@
 /*! exports provided: 0, 1, 2, 3, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":4,\"photo\":\"\",\"title\":\"Старт першої альфи та план розвитку сайту\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio. orem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio. orem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-08-01T11:43:45\",\"category\":\"в а ж л и в о\"},{\"id\":3,\"photo\":\"./static/img/post.jpg\",\"title\":\"Новина 2\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-07-15T14:15:57\",\"category\":\"н о в и н а\"},{\"id\":2,\"photo\":\"./static/img/post.jpg\",\"title\":\"Новина 3\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-07-14T20:43:45\",\"category\":\"н о в и н а\"},{\"id\":1,\"photo\":\"./static/img/post.jpg\",\"title\":\"Новина 4\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-07-12T20:43:45\",\"category\":\"н о в и н а\"}]");
+module.exports = JSON.parse("[{\"id\":4,\"photo\":\"\",\"title\":\"Старт першої альфи та план розвитку\",\"text\":\"🥳 Перша стадія альфи запущена 🥳. В ній хочу продемонструвати своє бачення сайту та розуміти як подалі розвивати його. Зібрав на мою думку найважливішу інформацію та постарався подати її максимально зручно, звичайно сайт не ідеальний, тут є ще над чим працювати, як-не-як це альфа і сподіваюся ви допоможете мені з цим. Є бот в телеграмі якому ви можете висловити свою думку як в позитивному так і в негативному ключі або особисто мені у приватні повідомлення(всюди юзернейм @mir4ri). Всі посилання для зв’язку присутні на головній сторінці. Приймається будь-яка критика бажано в конструктивному вигляді.\",\"paragraph\":\"Альфу планую поділити на 2-3 етапи. На 2-му етапі буду додавати, вдосконалювати або випилювати функціонал на основі вашого фідбеку. Також планую до кінця альфи реалізувати підсвітку поточної пари, відображення поточного тижня (1, 2, 3, 4) та зробити маску для пошуку груп в розкладі.\",\"end\":\"Сподіваюся на потужний фідбек, який допоможе збудувати зручний та потужний сайт про який всі коледжі та університети будуть мріяти 😎. Всім гарного та продуктивного дня.\",\"date\":\"2020-08-08T20:00:00\",\"category\":\"оновлення\"},{\"id\":3,\"photo\":\"/static/img/post.jpg\",\"title\":\"Перехід на дистанційне навчання\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-08-04T14:15:57\",\"category\":\"важливо\"},{\"id\":2,\"photo\":\"/static/img/post.jpg\",\"title\":\"Новина 3\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-07-24T20:43:45\",\"category\":\"новина\"},{\"id\":1,\"photo\":\"/static/img/post.jpg\",\"title\":\"Новина 4\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-06-22T20:43:45\",\"category\":\"новина\"}]");
 
 /***/ }),
 
@@ -29,7 +29,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _footer_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.scss */ "./components/Footer/footer.scss");
 /* harmony import */ var _footer_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_footer_scss__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/Footer/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep/components/Footer/index.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -548,38 +548,57 @@ var Footer = function Footer() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _public_static_img_logo_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../public/static/img/logo.svg */ "./public/static/img/logo.svg");
-/* harmony import */ var _public_static_img_logo_svg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_public_static_img_logo_svg__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _header_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header.scss */ "./components/Header/header.scss");
-/* harmony import */ var _header_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_header_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _public_static_img_logo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../public/static/img/logo.svg */ "./public/static/img/logo.svg");
+/* harmony import */ var _public_static_img_logo_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_static_img_logo_svg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _header_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./header.scss */ "./components/Header/header.scss");
+/* harmony import */ var _header_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_header_scss__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/Header/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep/components/Header/index.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 var Header = function Header() {
   return __jsx("header", {
-    className: _header_scss__WEBPACK_IMPORTED_MODULE_2___default.a.header,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 5
-    }
-  }, __jsx("img", {
-    src: _public_static_img_logo_svg__WEBPACK_IMPORTED_MODULE_1___default.a,
-    className: _header_scss__WEBPACK_IMPORTED_MODULE_2___default.a.logo,
-    alt: "logo",
+    className: _header_scss__WEBPACK_IMPORTED_MODULE_3___default.a.header,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
+      columnNumber: 5
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
       columnNumber: 7
     }
-  }));
+  }, __jsx("a", {
+    className: _header_scss__WEBPACK_IMPORTED_MODULE_3___default.a.headerLink,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    src: _public_static_img_logo_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    className: _header_scss__WEBPACK_IMPORTED_MODULE_3___default.a.logo,
+    alt: "logo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 11
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -604,7 +623,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layout_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./layout.scss */ "./components/Layout/layout.scss");
 /* harmony import */ var _layout_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_layout_scss__WEBPACK_IMPORTED_MODULE_5__);
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/Layout/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep/components/Layout/index.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -701,7 +720,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_static_img_info_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../public/static/img/info.svg */ "./public/static/img/info.svg");
 /* harmony import */ var _public_static_img_info_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_public_static_img_info_svg__WEBPACK_IMPORTED_MODULE_7__);
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/MobileNav/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep/components/MobileNav/index.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -828,7 +847,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/Nav/ActiveLink.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep/components/Nav/ActiveLink.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -855,7 +874,7 @@ var ActiveLink = function ActiveLink(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 18,
       columnNumber: 5
     }
   }, children);
@@ -880,7 +899,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _nav_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nav.scss */ "./components/Nav/nav.scss");
 /* harmony import */ var _nav_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nav_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/Nav/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep/components/Nav/index.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -959,28 +978,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _news_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./news.scss */ "./components/News/news.scss");
 /* harmony import */ var _news_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_news_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/components/News/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep/components/News/index.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
 var News = function News(props) {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])("notActive"),
-      postState = _useState[0],
-      changeState = _useState[1];
-
   return __jsx("div", {
     className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.post,
-    onClick: function onClick() {
-      return changeState(postState === "notActive" ? "active" : "notActive");
-    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 6,
       columnNumber: 5
     }
   }, props.post.photo ? __jsx("div", {
@@ -988,7 +999,7 @@ var News = function News(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 8,
       columnNumber: 9
     }
   }, __jsx("img", {
@@ -996,59 +1007,50 @@ var News = function News(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 9,
       columnNumber: 11
     }
-  })) : __jsx("div", {
-    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.stub,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }), __jsx("div", {
-    className: "".concat(_news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.txtContainer, " ").concat(postState === "active" ? _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.txtContainerActive : undefined),
-    category: props.post.category,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }
-  }, __jsx("h2", {
+  })) : undefined, __jsx("h2", {
     className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.title,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 9
+      lineNumber: 14,
+      columnNumber: 7
     }
   }, props.post.title), __jsx("p", {
-    className: "".concat(_news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.text, " ").concat(postState === "active" ? _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.textActive : undefined),
+    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.text,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 9
+      lineNumber: 15,
+      columnNumber: 7
     }
-  }, props.post.text), __jsx("span", {
-    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.date,
+  }, props.post.text), __jsx("div", {
+    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.tag,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 9
+      lineNumber: 16,
+      columnNumber: 7
     }
-  }, moment__WEBPACK_IMPORTED_MODULE_1___default()(props.post.date).locale("uk").fromNow()), __jsx("span", {
+  }, __jsx("span", {
     className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.category,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 17,
       columnNumber: 9
     }
-  }, props.post.category)));
+  }, props.post.category), __jsx("span", {
+    className: _news_scss__WEBPACK_IMPORTED_MODULE_2___default.a.date,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 9
+    }
+  }, moment__WEBPACK_IMPORTED_MODULE_1___default()(props.post.date).locale("uk").fromNow())));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (News);
@@ -1067,6 +1069,27 @@ function _arrayWithHoles(arr) {
 }
 
 module.exports = _arrayWithHoles;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
+      arr2[i] = arr[i];
+    }
+
+    return arr2;
+  }
+}
+
+module.exports = _arrayWithoutHoles;
 
 /***/ }),
 
@@ -1304,6 +1327,21 @@ module.exports = _interopRequireWildcard;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/iterableToArray.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/iterableToArray.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _iterableToArray(iter) {
+  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+}
+
+module.exports = _iterableToArray;
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js ***!
@@ -1357,6 +1395,21 @@ function _nonIterableRest() {
 }
 
 module.exports = _nonIterableRest;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/nonIterableSpread.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance");
+}
+
+module.exports = _nonIterableSpread;
 
 /***/ }),
 
@@ -1421,6 +1474,27 @@ function _slicedToArray(arr, i) {
 }
 
 module.exports = _slicedToArray;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/toConsumableArray.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/toConsumableArray.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js");
+
+var iterableToArray = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime/helpers/iterableToArray.js");
+
+var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js");
+
+function _toConsumableArray(arr) {
+  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();
+}
+
+module.exports = _toConsumableArray;
 
 /***/ }),
 
@@ -19214,10 +19288,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Findex%2Findex.jsx!./":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Findex%2Findex.jsx ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%2Fpages%2Findex%2Findex.jsx!./":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%2Fpages%2Findex%2Findex.jsx ***!
+  \*****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19808,6 +19882,290 @@ function withRouter(ComposedComponent) {
 
   return WithRouterWrapper;
 }
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/amp-context.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/amp-context.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+exports.AmpStateContext = React.createContext({});
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/amp.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/amp.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var amp_context_1 = __webpack_require__(/*! ./amp-context */ "./node_modules/next/dist/next-server/lib/amp-context.js");
+
+function isInAmpMode() {
+  var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+      _ref$ampFirst = _ref.ampFirst,
+      ampFirst = _ref$ampFirst === void 0 ? false : _ref$ampFirst,
+      _ref$hybrid = _ref.hybrid,
+      hybrid = _ref$hybrid === void 0 ? false : _ref$hybrid,
+      _ref$hasQuery = _ref.hasQuery,
+      hasQuery = _ref$hasQuery === void 0 ? false : _ref$hasQuery;
+
+  return ampFirst || hybrid && hasQuery;
+}
+
+exports.isInAmpMode = isInAmpMode;
+
+function useAmp() {
+  // Don't assign the context value to a variable to save bytes
+  return isInAmpMode(react_1["default"].useContext(amp_context_1.AmpStateContext));
+}
+
+exports.useAmp = useAmp;
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/head-manager-context.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/head-manager-context.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+exports.HeadManagerContext = React.createContext(null);
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/head.js":
+/*!********************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/head.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var side_effect_1 = __importDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next/dist/next-server/lib/side-effect.js"));
+
+var amp_context_1 = __webpack_require__(/*! ./amp-context */ "./node_modules/next/dist/next-server/lib/amp-context.js");
+
+var head_manager_context_1 = __webpack_require__(/*! ./head-manager-context */ "./node_modules/next/dist/next-server/lib/head-manager-context.js");
+
+var amp_1 = __webpack_require__(/*! ./amp */ "./node_modules/next/dist/next-server/lib/amp.js");
+
+function defaultHead() {
+  var inAmpMode = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+  var head = [react_1["default"].createElement("meta", {
+    charSet: "utf-8"
+  })];
+
+  if (!inAmpMode) {
+    head.push(react_1["default"].createElement("meta", {
+      name: "viewport",
+      content: "width=device-width"
+    }));
+  }
+
+  return head;
+}
+
+exports.defaultHead = defaultHead;
+
+function onlyReactElement(list, child) {
+  // React children can be "string" or "number" in this case we ignore them for backwards compat
+  if (typeof child === 'string' || typeof child === 'number') {
+    return list;
+  } // Adds support for React.Fragment
+
+
+  if (child.type === react_1["default"].Fragment) {
+    return list.concat(react_1["default"].Children.toArray(child.props.children).reduce(function (fragmentList, fragmentChild) {
+      if (typeof fragmentChild === 'string' || typeof fragmentChild === 'number') {
+        return fragmentList;
+      }
+
+      return fragmentList.concat(fragmentChild);
+    }, []));
+  }
+
+  return list.concat(child);
+}
+
+var METATYPES = ['name', 'httpEquiv', 'charSet', 'itemProp'];
+/*
+ returns a function for filtering head child elements
+ which shouldn't be duplicated, like <title/>
+ Also adds support for deduplicated `key` properties
+*/
+
+function unique() {
+  var keys = new Set();
+  var tags = new Set();
+  var metaTypes = new Set();
+  var metaCategories = {};
+  return function (h) {
+    var unique = true;
+
+    if (h.key && typeof h.key !== 'number' && h.key.indexOf('$') > 0) {
+      var key = h.key.slice(h.key.indexOf('$') + 1);
+
+      if (keys.has(key)) {
+        unique = false;
+      } else {
+        keys.add(key);
+      }
+    } // eslint-disable-next-line default-case
+
+
+    switch (h.type) {
+      case 'title':
+      case 'base':
+        if (tags.has(h.type)) {
+          unique = false;
+        } else {
+          tags.add(h.type);
+        }
+
+        break;
+
+      case 'meta':
+        for (var i = 0, len = METATYPES.length; i < len; i++) {
+          var metatype = METATYPES[i];
+          if (!h.props.hasOwnProperty(metatype)) continue;
+
+          if (metatype === 'charSet') {
+            if (metaTypes.has(metatype)) {
+              unique = false;
+            } else {
+              metaTypes.add(metatype);
+            }
+          } else {
+            var category = h.props[metatype];
+            var categories = metaCategories[metatype] || new Set();
+
+            if (categories.has(category)) {
+              unique = false;
+            } else {
+              categories.add(category);
+              metaCategories[metatype] = categories;
+            }
+          }
+        }
+
+        break;
+    }
+
+    return unique;
+  };
+}
+/**
+ *
+ * @param headElements List of multiple <Head> instances
+ */
+
+
+function reduceComponents(headElements, props) {
+  return headElements.reduce(function (list, headElement) {
+    var headElementChildren = react_1["default"].Children.toArray(headElement.props.children);
+    return list.concat(headElementChildren);
+  }, []).reduce(onlyReactElement, []).reverse().concat(defaultHead(props.inAmpMode)).filter(unique()).reverse().map(function (c, i) {
+    var key = c.key || i;
+    return react_1["default"].cloneElement(c, {
+      key: key
+    });
+  });
+}
+
+var Effect = side_effect_1["default"]();
+/**
+ * This component injects elements to `<head>` of your page.
+ * To avoid duplicated `tags` in `<head>` you can use the `key` property, which will make sure every tag is only rendered once.
+ */
+
+function Head(_ref) {
+  var children = _ref.children;
+  return react_1["default"].createElement(amp_context_1.AmpStateContext.Consumer, null, function (ampState) {
+    return react_1["default"].createElement(head_manager_context_1.HeadManagerContext.Consumer, null, function (updateHead) {
+      return react_1["default"].createElement(Effect, {
+        reduceComponentsToState: reduceComponents,
+        handleStateChange: updateHead,
+        inAmpMode: amp_1.isInAmpMode(ampState)
+      }, children);
+    });
+  });
+}
+
+Head.rewind = Effect.rewind;
+exports["default"] = Head;
 
 /***/ }),
 
@@ -20803,6 +21161,115 @@ exports.getRouteRegex = getRouteRegex;
 
 /***/ }),
 
+/***/ "./node_modules/next/dist/next-server/lib/side-effect.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/side-effect.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+
+var _assertThisInitialized = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+
+var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+
+var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+
+var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+
+var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+
+var _toConsumableArray = __webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "./node_modules/@babel/runtime/helpers/toConsumableArray.js");
+
+function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var isServer = false;
+
+exports["default"] = function () {
+  var mountedInstances = new Set();
+  var state;
+
+  function emitChange(component) {
+    state = component.props.reduceComponentsToState(_toConsumableArray(mountedInstances), component.props);
+
+    if (component.props.handleStateChange) {
+      component.props.handleStateChange(state);
+    }
+  }
+
+  return /*#__PURE__*/function (_react_1$Component) {
+    _inherits(_class, _react_1$Component);
+
+    var _super = _createSuper(_class);
+
+    _createClass(_class, null, [{
+      key: "rewind",
+      // Used when server rendering
+      value: function rewind() {
+        var recordedState = state;
+        state = undefined;
+        mountedInstances.clear();
+        return recordedState;
+      }
+    }]);
+
+    function _class(props) {
+      var _this;
+
+      _classCallCheck(this, _class);
+
+      _this = _super.call(this, props);
+
+      if (isServer) {
+        mountedInstances.add(_assertThisInitialized(_this));
+        emitChange(_assertThisInitialized(_this));
+      }
+
+      return _this;
+    }
+
+    _createClass(_class, [{
+      key: "componentDidMount",
+      value: function componentDidMount() {
+        mountedInstances.add(this);
+        emitChange(this);
+      }
+    }, {
+      key: "componentDidUpdate",
+      value: function componentDidUpdate() {
+        emitChange(this);
+      }
+    }, {
+      key: "componentWillUnmount",
+      value: function componentWillUnmount() {
+        mountedInstances["delete"](this);
+        emitChange(this);
+      }
+    }, {
+      key: "render",
+      value: function render() {
+        return null;
+      }
+    }]);
+
+    return _class;
+  }(react_1.Component);
+};
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/next-server/lib/utils.js":
 /*!*********************************************************!*\
   !*** ./node_modules/next/dist/next-server/lib/utils.js ***!
@@ -20980,6 +21447,18 @@ function formatWithValidation(url, options) {
 exports.formatWithValidation = formatWithValidation;
 exports.SP = typeof performance !== 'undefined';
 exports.ST = exports.SP && typeof performance.mark === 'function' && typeof performance.measure === 'function';
+
+/***/ }),
+
+/***/ "./node_modules/next/link.js":
+/*!***********************************!*\
+  !*** ./node_modules/next/link.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
+
 
 /***/ }),
 
@@ -22983,14 +23462,18 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout/index.jsx");
-/* harmony import */ var _components_News__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/News */ "./components/News/index.jsx");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.scss */ "./pages/index/index.scss");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _api_news_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../api/news.json */ "./api/news.json");
-var _api_news_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../api/news.json */ "./api/news.json", 1);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout/index.jsx");
+/* harmony import */ var _components_News__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/News */ "./components/News/index.jsx");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.scss */ "./pages/index/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _api_news_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../api/news.json */ "./api/news.json");
+var _api_news_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../api/news.json */ "./api/news.json", 1);
 var _this = undefined,
-    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep build/pages/index/index.jsx";
+    _jsxFileName = "/Users/mir4ri/Desktop/Mirari/prgm/FrontEnd/kep/pages/index/index.jsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -22999,36 +23482,286 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
+
 var Index = function Index(_ref) {
   var className = _ref.className;
   return __jsx("main", {
-    className: (_index_scss__WEBPACK_IMPORTED_MODULE_3___default.a.index, className),
+    className: (_index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.index, className),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 10,
       columnNumber: 5
     }
-  }, __jsx("div", {
-    className: _index_scss__WEBPACK_IMPORTED_MODULE_3___default.a.banner,
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 11,
       columnNumber: 7
     }
-  }, "\u041F\u0435\u0440\u0448\u0438\u0439 \u0435\u0442\u0430\u043F \u0430\u043B\u044C\u0444\u0438"), _api_news_json__WEBPACK_IMPORTED_MODULE_4__.map(function (post) {
-    return __jsx(_components_News__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx("title", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 9
+    }
+  }, "\u0424\u041A\u0415\u041F"), __jsx("meta", {
+    name: "theme-color",
+    content: "#19b5fe",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 9
+    }
+  })), __jsx("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.newsAndSidebar,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.news,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 9
+    }
+  }, __jsx("h2", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.newsTitle,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 11
+    }
+  }, "\u041D\u043E\u0432\u0438\u043D\u0438"), _api_news_json__WEBPACK_IMPORTED_MODULE_6__.map(function (post, position) {
+    return __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/post/".concat(position),
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.link,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 15
+      }
+    }, __jsx(_components_News__WEBPACK_IMPORTED_MODULE_4__["default"], {
       key: post.id,
       post: post,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
-        columnNumber: 9
+        lineNumber: 23,
+        columnNumber: 17
       }
-    });
-  }));
+    })));
+  })), __jsx("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.sidebar,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.events,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 11
+    }
+  }, __jsx("h3", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.subtitle,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 13
+    }
+  }, "\u041F\u043E\u0434\u0456\u0457"), __jsx("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.event,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 13
+    }
+  }, __jsx("h4", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventTitle,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 15
+    }
+  }, "\u0417\u043C\u0430\u0433\u0430\u043D\u043D\u044F \u043F\u043E \u0442\u0435\u0441\u0442\u0443\u0432\u0430\u043D\u043D\u044E"), __jsx("span", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventPlace,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }, "\u0410\u043A\u0442\u043E\u0432\u0438\u0439 \u0437\u0430\u043B"), __jsx("span", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventDate,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 15
+    }
+  }, "9 \u0432\u0435\u0440\u0435\u0441\u043D\u044F"), __jsx("span", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventTime,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 15
+    }
+  }, "14:10")), __jsx("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.event,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  }, __jsx("h4", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventTitle,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  }, "\u0414\u0435\u043C\u043E\u043D\u0441\u0442\u0440\u0430\u0446\u0456\u044F \u043F\u0435\u0442 \u043F\u0440\u043E\u0434\u0436\u0435\u043A\u0442\u0456\u0432"), __jsx("span", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventPlace,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 15
+    }
+  }, "\u0410\u043A\u0442\u043E\u0432\u0438\u0439 \u0437\u0430\u043B"), __jsx("span", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventDate,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 15
+    }
+  }, "12 \u0432\u0435\u0440\u0435\u0441\u043D\u044F"), __jsx("span", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventTime,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 15
+    }
+  }, "14:00")), __jsx("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.event,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 13
+    }
+  }, __jsx("h4", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventTitle,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 15
+    }
+  }, "\u041A\u043E\u043D\u0446\u0435\u0440\u0442 \u0434\u043E \u0434\u043D\u044F \u043C\u0438\u0440\u0443"), __jsx("span", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventPlace,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, "\u0410\u043A\u0442\u043E\u0432\u0438\u0439 \u0437\u0430\u043B"), __jsx("span", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventDate,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, "21 \u0432\u0435\u0440\u0435\u0441\u043D\u044F"), __jsx("span", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.eventTime,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, "14:00"))), __jsx("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.feedback,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 11
+    }
+  }, __jsx("a", {
+    href: "https://t.me/KEPBetabot",
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.feedbackLink,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 13
+    }
+  }, "Telegram \u0431\u043E\u0442: ", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 29
+    }
+  }), " @KEPBetabot"), __jsx("a", {
+    href: "https://t.me/mir4ri",
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_5___default.a.feedbackLink,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 13
+    }
+  }, "\u041C\u0456\u0439 telegram: ", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 29
+    }
+  }), " @mir4ri")))));
 }; // Index.getInitialProps = async ctx => {
 //   const res = await fetch(posts);
 //   const json = await res.json();
@@ -23036,7 +23769,7 @@ var Index = function Index(_ref) {
 // };
 
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"])(Index));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"])(Index));
 
 /***/ }),
 
@@ -23107,13 +23840,13 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQi
 /***/ }),
 
 /***/ 1:
-/*!*****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Findex%2Findex.jsx ***!
-  \*****************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%2Fpages%2Findex%2Findex.jsx ***!
+  \*********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Findex%2Findex.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%20build%2Fpages%2Findex%2Findex.jsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%2Fpages%2Findex%2Findex.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%2Fpages%2Findex%2Findex.jsx!./");
 
 
 /***/ }),
