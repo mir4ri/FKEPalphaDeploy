@@ -23549,7 +23549,7 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQi
 
 /***/ }),
 
-/***/ 14:
+/***/ 9:
 /*!**************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpost%2F%5Bid%5D&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%2Fpages%2Fpost%2F%5Bid%5D.jsx ***!
   \**************************************************************************************************************************************************************************/
@@ -23572,5 +23572,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[14,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=[id].js.map
