@@ -7,7 +7,7 @@
 /*! exports provided: 0, 1, 2, 3, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":4,\"photo\":\"\",\"title\":\"Старт першої альфи та план розвитку\",\"text\":\"🥳 Перша стадія альфи запущена 🥳. В ній хочу продемонструвати своє бачення сайту та розуміти як подалі розвивати його. Зібрав на мою думку найважливішу інформацію та постарався подати її максимально зручно, звичайно сайт не ідеальний, тут є ще над чим працювати, як-не-як це альфа і сподіваюся ви допоможете мені з цим. Є бот в телеграмі якому ви можете висловити свою думку як в позитивному так і в негативному ключі або особисто мені у приватні повідомлення(всюди юзернейм @mir4ri). Всі посилання для зв’язку присутні на головній сторінці.\",\"paragraph\":\"Альфу планую поділити на 2-3 етапи. На 2-му етапі буду додавати, вдосконалювати або випилювати функціонал на основі вашого фідбеку. Згодом поширю посилання на дошку в trello, де буде розписаний весь функціонал та прогрес розробки\",\"end\":\"Сподіваюся на тісну комунікацію, яка допоможе збудувати зручний та потужний сайт про який всі коледжі та університети будуть мріяти 😎. Всім гарного та продуктивного дня.\",\"date\":\"2020-08-09T13:00:00\",\"category\":\"оновлення\"},{\"id\":3,\"photo\":\"/static/img/post.jpg\",\"title\":\"Перехід на дистанційне навчання\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-08-04T14:15:57\",\"category\":\"важливо\"},{\"id\":2,\"photo\":\"/static/img/post.jpg\",\"title\":\"Новина 3\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-07-24T20:43:45\",\"category\":\"новина\"},{\"id\":1,\"photo\":\"/static/img/post.jpg\",\"title\":\"Новина 4\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-06-22T20:43:45\",\"category\":\"новина\"}]");
+module.exports = JSON.parse("[{\"id\":4,\"photo\":\"\",\"title\":\"Старт першої альфи та план розвитку\",\"text\":\"🥳Перша стадія альфи запущена 🥳. В ній хочу продемонструвати своє бачення сайту та розуміти як подалі розвивати його. Зібрав на мою думку найважливішу інформацію та постарався подати її максимально зручно, звичайно сайт не ідеальний, тут є ще над чим працювати, як-не-як це альфа і сподіваюся ви допоможете мені з цим. Є бот в телеграмі якому ви можете висловити свою думку як в позитивному так і в негативному ключі або особисто мені у приватні повідомлення(всюди юзернейм @mir4ri). Всі посилання для зв’язку присутні на головній сторінці.\",\"paragraph\":\"Альфу планую поділити на 2-3 етапи. На 2-му етапі буду додавати, вдосконалювати або випилювати функціонал на основі вашого фідбеку. Згодом поширю посилання на дошку в trello, де буде розписаний весь функціонал та прогрес розробки\",\"end\":\"Сподіваюся на тісну комунікацію, яка допоможе збудувати зручний та потужний сайт про який всі коледжі та університети будуть мріяти 😎. Всім гарного та продуктивного дня.\",\"date\":\"2020-08-09T13:00:00\",\"category\":\"оновлення\"},{\"id\":3,\"photo\":\"/static/img/post.jpg\",\"title\":\"Перехід на дистанційне навчання\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-08-04T14:15:57\",\"category\":\"важливо\"},{\"id\":2,\"photo\":\"/static/img/post.jpg\",\"title\":\"Новина 3\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-07-24T20:43:45\",\"category\":\"новина\"},{\"id\":1,\"photo\":\"/static/img/post.jpg\",\"title\":\"Новина 4\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nullam enim eget sit eget praesent turpis. Egestas volutpat malesuada dictum nascetur orci, nibh cras neque. Vel leo a ultricies elementum. Sem maecenas quam lectus odio.\",\"date\":\"2020-06-22T20:43:45\",\"category\":\"новина\"}]");
 
 /***/ }),
 
@@ -902,6 +902,12 @@ var ActiveLink = function ActiveLink(_ref) {
   var handleClick = function handleClick(e) {
     e.preventDefault();
     router.push(href);
+    router.events.on("routeChangeComplete", function () {
+      window.scroll({
+        top: 0,
+        left: 0
+      });
+    });
   };
 
   return __jsx("a", {
@@ -911,7 +917,7 @@ var ActiveLink = function ActiveLink(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 21,
       columnNumber: 5
     }
   }, children);
@@ -23859,7 +23865,7 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQi
 
 /***/ }),
 
-/***/ 1:
+/***/ 11:
 /*!*********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%2Fpages%2Findex%2Findex.jsx ***!
   \*********************************************************************************************************************************************************/
@@ -23882,5 +23888,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[11,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
