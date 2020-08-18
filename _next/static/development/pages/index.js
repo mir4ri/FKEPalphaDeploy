@@ -1047,6 +1047,7 @@ var News = function News(props) {
     }
   }, __jsx("img", {
     src: props.post.photo,
+    alt: "titleImg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1058,7 +1059,7 @@ var News = function News(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 12,
       columnNumber: 7
     }
   }, props.post.title), __jsx("p", {
@@ -1066,7 +1067,7 @@ var News = function News(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 13,
       columnNumber: 7
     }
   }, props.post.text), __jsx("div", {
@@ -1074,7 +1075,7 @@ var News = function News(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 14,
       columnNumber: 7
     }
   }, __jsx("span", {
@@ -1082,7 +1083,7 @@ var News = function News(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 15,
       columnNumber: 9
     }
   }, props.post.category), __jsx("span", {
@@ -1090,7 +1091,7 @@ var News = function News(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 16,
       columnNumber: 9
     }
   }, moment__WEBPACK_IMPORTED_MODULE_1___default()(props.post.date).locale("uk").fromNow())));

@@ -24343,9 +24343,10 @@ var Schedule = function Schedule(props) {
       lineNumber: 188,
       columnNumber: 9
     }
-  }, props.day.day), props.day.day === "понеділок" ? props.day.group : undefined, props.day.day !== "понеділок" && props.selectedDay !== "понеділок" && props.selectedDay !== "" ? props.day.group : undefined), props.day.lessons.map(function (lesson) {
+  }, props.day.day), props.day.day === "понеділок" ? props.day.group : undefined, props.day.day !== "понеділок" && props.selectedDay !== "понеділок" && props.selectedDay !== "" ? props.day.group : undefined), props.day.lessons.map(function (lesson, key) {
     return __jsx("div", {
       className: _students_scss__WEBPACK_IMPORTED_MODULE_1___default.a.lesson,
+      key: key,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -24636,7 +24637,7 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQi
 
 /***/ }),
 
-/***/ 2:
+/***/ 10:
 /*!********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fschedule&absolutePagePath=%2FUsers%2Fmir4ri%2FDesktop%2FMirari%2Fprgm%2FFrontEnd%2Fkep%2Fpages%2Fschedule%2Findex.jsx ***!
   \********************************************************************************************************************************************************************/
@@ -24659,5 +24660,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[10,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=schedule.js.map
