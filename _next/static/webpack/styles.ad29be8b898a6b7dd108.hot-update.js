@@ -1,4 +1,4 @@
-(window["webpackJsonp_N_E"] = window["webpackJsonp_N_E"] || []).push([["styles"],{
+webpackHotUpdate_N_E("styles",{
 
 /***/ "./components/Footer/footer.scss":
 /*!***************************************!*\
@@ -77,4 +77,4 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"banner\":\"_3
 
 /***/ })
 
-}]);
+})
