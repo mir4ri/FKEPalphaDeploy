@@ -73,6 +73,9 @@
   }
 }
 ._1DvilgY_RNLx9YjM_pHwv4 {
+  position: relative;
+  z-index: 2;
+  background-color: #fefefe;
   flex: 0 0 auto;
   display: grid;
   border-top: 1px solid #e6e6e6;
@@ -269,6 +272,31 @@ body {
     padding: 0 10px;
   }
 }
+._2LOrxuB2sO1MlZ3D8OvxcR {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ZwFlEHAiy2BQExBsf9yB1 {
+  margin-bottom: 10px;
+}
+
+.ap2FDx8aHJUSXjMd87vG2 {
+  color: #242424;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+._1V1X1mYba0IrrdGSdFklxx {
+  margin-bottom: 3px;
+}
+._1V1X1mYba0IrrdGSdFklxx button {
+  margin-right: 5px;
+}
+
+._5zvjXWVQkzbENS5CXNF-D {
+  color: #c4c4c4;
+}
 ._2dtyhOGvnzjBqIzvcCrA2K {
   cursor: pointer;
   display: block;
@@ -281,10 +309,11 @@ body {
 ._2dtyhOGvnzjBqIzvcCrA2K ._2otrbJn2AzDkHetRtEFRUr::before {
   content: "";
   position: absolute;
+  z-index: 900;
   top: 0;
   left: 0;
   width: 100%;
-  height: 101.5%;
+  height: 100.8%;
   border-radius: 4px;
   background-color: rgba(0, 163, 255, 0.05);
 }
@@ -352,7 +381,7 @@ body {
   margin: 0 auto;
   position: sticky;
   top: 103px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 ._23NOuuwqcCpBs9fLUC8PZo ._3X5W4LqsnJw3rRSEeF1fr6 ._3AAGqRwZ-M79DzQRSpZRps .JYF5SvUBSGq0YkMAEp8vv {
   color: #00c0ff;
@@ -389,12 +418,14 @@ body {
 }
 ._23NOuuwqcCpBs9fLUC8PZo ._3X5W4LqsnJw3rRSEeF1fr6 ._2d6Eq5N3zFauA5VdzDchVU {
   position: sticky;
-  top: 395px;
+  top: 325px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 18px;
+  background-color: #fefefe;
+  z-index: 1;
 }
 ._23NOuuwqcCpBs9fLUC8PZo ._3X5W4LqsnJw3rRSEeF1fr6 ._2d6Eq5N3zFauA5VdzDchVU ._2cxadyvNYAVxk_riYBgi_2 {
   text-decoration: none;
@@ -407,7 +438,7 @@ body {
 ._23NOuuwqcCpBs9fLUC8PZo ._3X5W4LqsnJw3rRSEeF1fr6 ._32YZJKt5oIFXty3aUGwFK3 {
   word-break: break-all;
   position: sticky;
-  top: 490px;
+  top: 422px;
 }
 ._23NOuuwqcCpBs9fLUC8PZo ._3X5W4LqsnJw3rRSEeF1fr6 ._32YZJKt5oIFXty3aUGwFK3 ._2j7XIkvZU6mXmZxknG5nOF {
   text-decoration: none;
@@ -487,7 +518,7 @@ body {
   height: 100%;
   width: 100%;
 }
-.gxgBvdE5mEw4HyovJYQN3 h2 {
+.gxgBvdE5mEw4HyovJYQN3 ._2Q86U6qr-DTxDQ1OPXeveI {
   animation-duration: 1.4s;
   animation-timing-function: ease;
   margin-top: 50px;
@@ -497,7 +528,7 @@ body {
   transform: translateY(-20px);
   opacity: 0;
 }
-.gxgBvdE5mEw4HyovJYQN3 p {
+.gxgBvdE5mEw4HyovJYQN3 ._3S_HaAqhTbyNuh7A5cEpv8 {
   padding: 0 75px;
   font-weight: 500;
   animation-duration: 1.2s;
